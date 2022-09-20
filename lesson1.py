@@ -15,3 +15,6 @@ print(d + "," + e + "!")
 
 print(d + e)
 print(d + "\n" + e)
+print(d * 5)
+f = "django"
+print(f[2])
