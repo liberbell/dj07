@@ -12,3 +12,6 @@ e = "world"
 print(d)
 print(d, e)
 print(d + "," + e + "!")
+
+print(d + e)
+print(d + "\n" + e)
