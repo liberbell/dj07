@@ -6,3 +6,8 @@ print(a / b)
 print(a // b)
 print(b / c)
 print(b // c)
+
+d = "hello"
+e = "world"
+print(d)
+print(d, e)
