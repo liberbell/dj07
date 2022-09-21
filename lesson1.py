@@ -25,3 +25,6 @@ print(len(f))
 g = "こんにちは"
 print(g)
 print(g.encode("utf-8"))
+h = g.encode("utf-8")
+print(h)
+i = h.decode("utf-8")
