@@ -19,3 +19,9 @@ print(d * 5)
 f = "django"
 print(f[2])
 print(f[4:])
+
+print(len(f))
+
+g = "こんにちは"
+print(g)
+print(g.encode("utf-8"))
