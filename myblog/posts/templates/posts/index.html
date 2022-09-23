@@ -7,5 +7,9 @@
     <body>
         <h1>Welcome to this blog.</h1>
         <h2>Newer posts.</h2>
+
+        {% for post in posts.all %}
+        {{ post.title }}
+        {% endfor %}
     </body>
 </html>
