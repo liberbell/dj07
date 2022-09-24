@@ -9,6 +9,7 @@
         <h2>Newer posts.</h2>
 
         {% for post in posts.all %}
+        ID: {{ post.id }}
         {{ post.title }}
         <br>
         {{ post.publish_date }}
