@@ -9,15 +9,16 @@
         <h2>Newer posts.</h2>
 
         {% for post in posts.all %}
-        ID: {{ post.id }}
-        Title: {{ post.title }}
-        <br>
-        {{ post.publish_date }}
-        <br>
-        <img src="{{ post.image.url }}" alt="">
-        <br>
-        {{ post.summary }}
-        <br><br>
+            <a href="{% url "post_detail" post.id %}">{{ post.title }}</a>
+            ID: {{ post.id }}
+            Title: {{ post.title }}
+            <br>
+            {{ post.publish_date }}
+            <br>
+            <img src="{{ post.image.url }}" alt="">
+            <br>
+            {{ post.summary }}
+            <br><br>
         {% endfor %}
     </body>
 </html>
