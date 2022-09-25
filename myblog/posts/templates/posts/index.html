@@ -32,7 +32,9 @@
         {% comment %} <h1>Welcome to this blog.</h1> {% endcomment %}
         <h3>Newer posts.</h3>
         <br>
-        
+        {% load static %}
+        <img src="{% static "posts/aircraft-2795557_640.jpg" %}" alt="">
+
 
         {% for post in posts.all %}
             <a href="{% url "post_detail" post.id %}">{{ post.title }}</a>
