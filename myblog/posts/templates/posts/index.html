@@ -24,16 +24,15 @@
                   </li>
                  
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+               
               </div>
             </div>
           </nav>
         <div class="container">
         {% comment %} <h1>Welcome to this blog.</h1> {% endcomment %}
         <h3>Newer posts.</h3>
+        <br>
+        
 
         {% for post in posts.all %}
             <a href="{% url "post_detail" post.id %}">{{ post.title }}</a>
