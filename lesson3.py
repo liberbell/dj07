@@ -14,9 +14,16 @@
 
 # input_var = int(input("Please enter a number:"))
 
+# while True:
+#     try:
+#         input_var = int(input("Please enter a number:"))
+#         break
+#     except:
+#         print("Ooops: That was not a valid number. Try again...")
+
+attempts = 0
 while True:
     try:
-        input_var = int(input("Please enter a number:"))
+        input_var = input("Please input a number: ")
+        input_var = int(input_var)
         break
-    except:
-        print("Ooops: That was not a valid number. Try again...")
