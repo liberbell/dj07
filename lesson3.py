@@ -11,3 +11,5 @@ except FileNotFoundError:
     print("No such file.")
 except:
     print("An unknown error has occured.")
+
+input_var = int(input("Please enter a number:"))
