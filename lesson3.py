@@ -39,4 +39,8 @@ attempts = 0
 #             print(input_var)
 #             break
 
-time.sleep(10)
+try:
+    time.sleep(10)
+except KeyboardInterrupt:
+    print("KeyboardInterrupt has occured.")
+# time.sleep(10)
