@@ -1,4 +1,6 @@
 try:
     print(variable)
+except NameError:
+    print("Variable is not defined.")
 except:
-    print("Exception occured (Name error), because 'variable' is not defined")
+    print("An unknown error has occured.")
