@@ -73,8 +73,9 @@ attempts = 0
 #     print("Done with processing file.")
 
 try:
-    file = open("testfile.txt")
+    file = open("testfile.txt", "w")
     file.write("Writing to the open file.")
+    print("One line writing to the file.")
 
 except:
     print("Ooops. something went wrong.")
