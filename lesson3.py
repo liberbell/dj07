@@ -82,7 +82,10 @@ attempts = 0
 # else:
 #     print("Nothing went wrong.")
 
-a = int(5)
-b = str("hello")
-d = a + b + c
-print(d)
+try:
+    a = int(5)
+    b = str("hello")
+    d = a + b + c
+except TypeError:
+    print("Type error was thrown.")
+# print(d)
