@@ -1,3 +1,4 @@
+from logging import exception
 import time
 # try:
 #     print(variable)
@@ -99,14 +100,19 @@ attempts = 0
 # except NameError:
 #     print("NameError was thrown.")
 
-try:
-    a = str(5)
-    b = str("hello")
-    c = int(" world")
-    d = a + b + c
-except TypeError:
-    print("Type error was thrown.")
-except NameError:
-    print("NameError was thrown.")
-except ValueError:
-    print("ValueError was thrown.")
+# try:
+#     a = str(5)
+#     b = str("hello")
+#     c = int(" world")
+#     d = a + b + c
+# except TypeError:
+#     print("Type error was thrown.")
+# except NameError:
+#     print("NameError was thrown.")
+# except ValueError:
+#     print("ValueError was thrown.")
+
+number = int(input("Enter a number: "))
+
+if number > 5:
+    raise Exception("The number shuld not exceed 5. The value of number is: {}".format(number))
