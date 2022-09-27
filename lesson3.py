@@ -45,16 +45,20 @@ attempts = 0
 #     print("KeyboardInterrupt has occured.")
 # time.sleep(10)
 
-try:
-    f = open("nonexists.txt")
-except OSError:
-    print("OS error")
-except FileNotFoundError:
-    print("File not found.")
+#     f = open("nonexists.txt")
+# except OSError:
+#     print("OS error")
+# except FileNotFoundError:
+#     print("File not found.")
+
+# try:
+#     f = open("nonexists.txt")
+# except FileNotFoundError:
+#     print("File not found.")
+# except OSError:
+#     print("OS error")
 
 try:
-    f = open("nonexists.txt")
-except FileNotFoundError:
-    print("File not found.")
-except OSError:
-    print("OS error")
+    print(var)
+except NameError:
+    print("The variable is not defined.")
