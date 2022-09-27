@@ -62,3 +62,5 @@ try:
     print(var)
 except NameError:
     print("The variable is not defined.")
+finally:
+    print("The try except block ended.")
