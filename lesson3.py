@@ -58,10 +58,15 @@ attempts = 0
 # except OSError:
 #     print("OS error")
 
-var = "xyz"
+# var = "xyz"
+# try:
+#     print(var)
+# except NameError:
+#     print("The variable is not defined.")
+# finally:
+#     print("The try except block ended.")
+
 try:
-    print(var)
-except NameError:
-    print("The variable is not defined.")
+    f = open("testfile.txt", "w")
 finally:
-    print("The try except block ended.")
+    print("Done with processing file.")
