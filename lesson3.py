@@ -90,9 +90,19 @@ attempts = 0
 #     print("Type error was thrown.")
 # print(d)
 
+# try:
+#     a = str(5)
+#     b = str("hello")
+#     d = a + b + c
+# except TypeError:
+#     print("Type error was thrown.")
+# except NameError:
+#     print("NameError was thrown.")
+
 try:
     a = str(5)
     b = str("hello")
+    c = str(" world")
     d = a + b + c
 except TypeError:
     print("Type error was thrown.")
