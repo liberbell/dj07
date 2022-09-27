@@ -39,8 +39,15 @@ attempts = 0
 #             print(input_var)
 #             break
 
-try:
-    time.sleep(10)
-except KeyboardInterrupt:
-    print("KeyboardInterrupt has occured.")
+# try:
+#     time.sleep(10)
+# except KeyboardInterrupt:
+#     print("KeyboardInterrupt has occured.")
 # time.sleep(10)
+
+try:
+    f = open("nonexists.txt")
+except OSError:
+    print("OS error")
+except FileNotFoundError:
+    print("File not found.")
