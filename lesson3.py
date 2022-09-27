@@ -51,3 +51,10 @@ except OSError:
     print("OS error")
 except FileNotFoundError:
     print("File not found.")
+
+try:
+    f = open("nonexists.txt")
+except FileNotFoundError:
+    print("File not found.")
+except OSError:
+    print("OS error")
