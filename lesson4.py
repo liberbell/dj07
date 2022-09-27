@@ -14,3 +14,5 @@ def main():
         print("")
 
     print("total sum: ", total)
+
+main()
