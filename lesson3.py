@@ -58,6 +58,7 @@ attempts = 0
 # except OSError:
 #     print("OS error")
 
+var = "xyz"
 try:
     print(var)
 except NameError:
