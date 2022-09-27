@@ -12,3 +12,5 @@ def main():
         print("")
         print("sum: ", total)
         print("")
+
+    print("total sum: ", total)
