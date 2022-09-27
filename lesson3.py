@@ -114,5 +114,11 @@ attempts = 0
 
 number = int(input("Enter a number: "))
 
-if number > 5:
-    raise Exception("The number shuld not exceed 5. The value of number is: {}".format(number))
+# if number > 5:
+#     raise Exception("The number shuld not exceed 5. The value of number is: {}".format(number))
+
+try:
+    if number > 5:
+        raise Exception("The number shuld not exceed 5. The value of number is: {}".format(number))
+except Exception as error:
+    print("Caught this error. " + repr(error))
