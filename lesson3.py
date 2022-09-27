@@ -66,8 +66,17 @@ attempts = 0
 # finally:
 #     print("The try except block ended.")
 
+# try:
+#     f = open("testfile.txt", "w")
+# finally:
+#     f.close()
+#     print("Done with processing file.")
+
 try:
-    f = open("testfile.txt", "w")
-finally:
-    f.close()
-    print("Done with processing file.")
+    file = open("testfile.txt")
+    file.write("Writing to the open file.")
+
+except:
+    print("Ooops. something went wrong.")
+else:
+    print("Nothing went wrong.")
