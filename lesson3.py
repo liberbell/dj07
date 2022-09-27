@@ -72,12 +72,17 @@ attempts = 0
 #     f.close()
 #     print("Done with processing file.")
 
-try:
-    file = open("testfile.txt", "w")
-    file.write("Writing to the open file.")
-    print("One line writing to the file.")
+# try:
+#     file = open("testfile.txt", "w")
+#     file.write("Writing to the open file.")
+#     print("One line writing to the file.")
 
-except:
-    print("Ooops. something went wrong.")
-else:
-    print("Nothing went wrong.")
+# except:
+#     print("Ooops. something went wrong.")
+# else:
+#     print("Nothing went wrong.")
+
+a = int(5)
+b = str("hello")
+d = a + b + c
+print(d)
