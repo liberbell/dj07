@@ -69,4 +69,5 @@ attempts = 0
 try:
     f = open("testfile.txt", "w")
 finally:
+    f.close()
     print("Done with processing file.")
