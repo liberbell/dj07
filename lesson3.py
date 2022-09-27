@@ -102,9 +102,11 @@ attempts = 0
 try:
     a = str(5)
     b = str("hello")
-    c = str(" world")
+    c = int(" world")
     d = a + b + c
 except TypeError:
     print("Type error was thrown.")
 except NameError:
     print("NameError was thrown.")
+except ValueError:
+    print("ValueError was thrown.")
