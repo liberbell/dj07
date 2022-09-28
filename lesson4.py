@@ -9,8 +9,8 @@ def main():
     total = 0
 
     for i in num_list:
-        count += count + i
-        total += total + i
+        count = count + i
+        total = total + i
 
         print("element is: ", i)
         # print("")
