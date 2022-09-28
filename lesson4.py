@@ -1,3 +1,7 @@
+from ast import If
+from threading import main_thread
+
+
 num_list = [10, 20, 30, 40, 50]
 
 def main():
@@ -15,4 +19,5 @@ def main():
 
     print("total sum: ", total)
 
-main()
+if __name__ == "__main_":
+    main()
