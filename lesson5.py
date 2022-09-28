@@ -6,8 +6,15 @@ import argparse
 # print("Number of argments of ", (len(sys.argv)))
 # print("The Arguments are ", argment_list)
 
-parser = argparse.ArgumentParser()
-parser.add_argument("-display")
-args = parser.parse_args()
+# parser = argparse.ArgumentParser()
+# parser.add_argument("-display")
+# args = parser.parse_args()
 
-print(args.display)
+# print(args.display)
+
+
+number = 1
+if len(sys.argv) == 2:
+    number = input(sys.argv[1])
+
+for i in 
