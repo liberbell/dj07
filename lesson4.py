@@ -19,5 +19,5 @@ def main():
 
     print("total sum: ", total)
 
-if __name__ == "__main_":
+if __name__ == "__main__":
     main()
