@@ -9,9 +9,9 @@ def main():
         total += total + i
 
         print("element is: ", i)
-        print("")
+        # print("")
         print("sum: ", total)
-        print("")
+        # print("")
 
     print("total sum: ", total)
 
