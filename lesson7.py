@@ -11,3 +11,6 @@ for letter in my_string:
 
 for letter in "10":
     print(letter)
+
+for digit in 10:
+    print(digit)
