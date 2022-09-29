@@ -9,3 +9,4 @@ import argparse
 ap = argparse.ArgumentParser()
 
 ap.add_argument("-a", "--first_operand", required=True, help="first operand")
+ap.add_argument("-b")
