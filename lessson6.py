@@ -13,8 +13,8 @@ ap.add_argument("-b", "--second_operand", required=True, help="second operand")
 
 args = vars(ap.parse_args())
 
-a = int(args["first operand"])
-b = int(args["second operand"])
+a = int(args["first_operand"])
+b = int(args["second_operand"])
 print("Sum is {}".format(a + b))
 print("Sub is {}".format(a - b))
 print("Div is {}".format(a / b))
