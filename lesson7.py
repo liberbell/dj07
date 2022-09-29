@@ -8,3 +8,6 @@ my_string = "Hello World"
 
 for letter in my_string:
     print(letter)
+
+for letter in "10":
+    print(letter)
