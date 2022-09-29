@@ -17,3 +17,5 @@ for letter in "10":
 
 for country in "Germany", "Japan", "British":
     print(country)
+
+dogs = ("Pug", "Dorberman", "Golden Retriever")
