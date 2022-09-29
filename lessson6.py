@@ -1,6 +1,3 @@
-import imp
-
-
 import sys
 
 arg1 = int(sys.argv[1])
