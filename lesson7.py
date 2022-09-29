@@ -20,4 +20,4 @@ for country in "Germany", "Japan", "British":
 
 dogs = ("Pug", "Dorberman", "Golden Retriever")
 for dog in dogs:
-    print(dog)
+    print("It`s a", dog)
