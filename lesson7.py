@@ -1,3 +1,6 @@
+from distutils.command.build_scripts import first_line_re
+
+
 for letter in ["H", "E", "L", "L", "O"]:
     print(letter)
 
@@ -30,3 +33,7 @@ dog_weights = (
 
 for i, (dog, weight) in enumerate(dog_weights):
     print("index %d, is a %s and it weight is %s kg." % (i, dog, weight))
+
+friends = ["Alex", "Bob", "Eric"]
+for friend in friends:
+    print(friend)
