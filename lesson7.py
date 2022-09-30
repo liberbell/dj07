@@ -21,3 +21,12 @@ for country in "Germany", "Japan", "British":
 dogs = ("Pug", "Dorberman", "Golden Retriever")
 for dog in dogs:
     print("It`s a", dog)
+
+dog_weights = (
+    ("Pub", 20),
+    ("Dorberman", 50),
+    ("Golden Retriever", 70)
+)
+
+for i, (dog, weight) in enumerate(dog_weights):
+    print("index %d, is a %d and it weight is %d kg.", i, dog, weight)
