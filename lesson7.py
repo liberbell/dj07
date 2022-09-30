@@ -36,4 +36,4 @@ for i, (dog, weight) in enumerate(dog_weights):
 
 friends = ["Alex", "Bob", "Eric"]
 for friend in friends:
-    print(friend)
+    print("Happy new year ", friend)
