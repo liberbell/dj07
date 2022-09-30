@@ -29,4 +29,4 @@ dog_weights = (
 )
 
 for i, (dog, weight) in enumerate(dog_weights):
-    print("index %d, is a %d and it weight is %d kg.", i, dog, weight)
+    print("index %d, is a %d and it weight is %d kg." % (i, dog, weight))
