@@ -53,3 +53,10 @@
 
 # for student, score in student_scores.items():
 #     print("Student: ", student, "\tScore: ", score)
+
+number = [4, 6, 9, 10]
+
+for num in number:
+    quotient = num // 2
+
+    print(quotient, "is the quotient of ", num, "/2")
