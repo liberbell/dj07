@@ -85,8 +85,13 @@
 # else:
 #     print("No more item left in the list.")
 
-characters = {"a", "b", "c", "d"}
-for letter in characters:
-    print(letter)
-else:
-    print("No more characters left.")
+# characters = {"a", "b", "c", "d"}
+# for letter in characters:
+#     print(letter)
+# else:
+#     print("No more characters left.")
+
+us_cities = ["New York", "Nashville", "Seattle"]
+for city in us_cities:
+    if city == "New York":
+        print("New York is present in the list.")
