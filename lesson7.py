@@ -66,8 +66,15 @@
 # for item in mixed_list:
 #     print("Type of ", item, "is ", type(item))
 
-num_list = [2, 4, 6, 8]
-for val in num_list:
-    square = val * 2
+# num_list = [2, 4, 6, 8]
+# for val in num_list:
+#     square = val ** 2
 
-    print("Square of", val, "is", square)
+#     print("Square of", val, "is", square)
+
+string = input("Enter a string:")
+count = 0
+
+for i in string:
+    count = count + 1
+print(count)
