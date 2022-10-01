@@ -54,9 +54,14 @@
 # for student, score in student_scores.items():
 #     print("Student: ", student, "\tScore: ", score)
 
-number = [4, 6, 9, 10]
+# number = [4, 6, 9, 10]
 
-for num in number:
-    quotient = num // 2
+# for num in number:
+#     quotient = num // 2
 
-    print(quotient, "is the quotient of ", num, "/2")
+#     print(quotient, "is the quotient of ", num, "/2")
+
+mixed_list = [145, 23.4, 2+2j, False, "Hello", (0, 1), [4, -1], {"Bob": "M", "Section": "A"}]
+
+for item in mixed_list:
+    print("Type of ", item, "is ", type(item))
