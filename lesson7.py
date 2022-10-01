@@ -49,3 +49,7 @@ for student in student_scores:
 print(student_scores.keys())
 for student in student_scores.values():
     print(student)
+
+
+for key in student_scores:
+    print("Key value pair -", key, ":", student_scores(key))
