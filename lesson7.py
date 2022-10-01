@@ -61,7 +61,13 @@
 
 #     print(quotient, "is the quotient of ", num, "/2")
 
-mixed_list = [145, 23.4, 2+2j, False, "Hello", (0, 1), [4, -1], {"Bob": "M", "Section": "A"}]
+# mixed_list = [145, 23.4, 2+2j, False, "Hello", (0, 1), [4, -1], {"Bob": "M", "Section": "A"}]
 
-for item in mixed_list:
-    print("Type of ", item, "is ", type(item))
+# for item in mixed_list:
+#     print("Type of ", item, "is ", type(item))
+
+num_list = [2, 4, 6, 8]
+for val in num_list:
+    square = val * 2
+
+    print("Square of", val, "is", square)
