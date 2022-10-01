@@ -78,3 +78,9 @@ count = 0
 for i in string:
     count = count + 1
 print(count)
+
+numbers = [2, 3, 5, 7]
+for num in numbers:
+    print(num)
+else:
+    print("No more item left in the list.")
