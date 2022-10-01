@@ -72,15 +72,21 @@
 
 #     print("Square of", val, "is", square)
 
-string = input("Enter a string:")
-count = 0
+# string = input("Enter a string:")
+# count = 0
 
-for i in string:
-    count = count + 1
-print(count)
+# for i in string:
+#     count = count + 1
+# print(count)
 
-numbers = [2, 3, 5, 7]
-for num in numbers:
-    print(num)
+# numbers = [2, 3, 5, 7]
+# for num in numbers:
+#     print(num)
+# else:
+#     print("No more item left in the list.")
+
+characters = {"a", "b", "c", "d"}
+for letter in characters:
+    print(letter)
 else:
-    print("No more item left in the list.")
+    print("No more characters left.")
