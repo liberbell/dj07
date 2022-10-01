@@ -47,3 +47,5 @@ student_scores = {
 for student in student_scores:
     print(student)
 print(student_scores.keys())
+for student in student_scores.keys():
+    print(student)
