@@ -52,4 +52,4 @@ for student in student_scores.values():
 
 
 for key in student_scores:
-    print("Key value pair -", key, ":", student_scores(key))
+    print("Key value pair -", key, ":", student_scores[key])
