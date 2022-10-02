@@ -31,3 +31,6 @@ print("the end of loop")
 x = range(5)
 for i in reversed(x):
     print(i)
+
+for i in reversed("Welcome"):
+    print(i)
