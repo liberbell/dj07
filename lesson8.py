@@ -37,3 +37,4 @@
 
 print(list(range(5, 10, 1)))
 print(list(range(5, 10, 2)))
+print(tuple(range(5, -10, -2)))
