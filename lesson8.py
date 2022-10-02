@@ -20,6 +20,10 @@
 # for _ in range(3):
 #     print("hello")
 
-for i in range(5, 8):
-    print(i, "square is ", i ** 2)
-print("End of loop")
+# for i in range(5, 8):
+#     print(i, "square is ", i ** 2)
+# print("End of loop")
+
+for val in range(5, 10 +1):
+    print(val)
+print("the end of loop")
