@@ -17,3 +17,5 @@ for i in range(100, 301):
     first_digit = int(num_str[0])
     second_digit = int(num_str[1])
     third_digit = int(num_str[2])
+
+    if (first_digit % 2 == 0) and (second_digit % 2 == 0) and (third_digit % 2 == 0):
