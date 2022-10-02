@@ -8,3 +8,4 @@ num_list = []
 for i in range(1, 21):
     if (i % 3 == 0 or i % 5 == 0):
         num_list.append(i)
+print(num_list)
