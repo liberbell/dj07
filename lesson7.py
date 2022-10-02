@@ -101,9 +101,13 @@
 #     if num % 2 == 0:
 #         print("The list contains an even number: ", num)
 
-years = [1998, 2004, 2012, 1988, 2021]
-for year in years:
-    if year % 4 == 0:
-        print(year, " is a leap year.")
-    else:
-        print(year, " is not a leap year.")
+# years = [1998, 2004, 2012, 1988, 2021]
+# for year in years:
+#     if year % 4 == 0:
+#         print(year, " is a leap year.")
+#     else:
+#         print(year, " is not a leap year.")
+
+names = ["Bob", "Alex", "Eric", "Elton", "Jhon", "George"]
+for student in names:
+    print(student)
