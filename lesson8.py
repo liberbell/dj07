@@ -27,3 +27,7 @@
 for val in range(5, 10 +1):
     print(val)
 print("the end of loop")
+
+x = range(5)
+for i in reversed(x):
+    print(i)
