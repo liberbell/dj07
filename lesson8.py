@@ -24,13 +24,15 @@
 #     print(i, "square is ", i ** 2)
 # print("End of loop")
 
-for val in range(5, 10 +1):
-    print(val)
-print("the end of loop")
+# for val in range(5, 10 +1):
+#     print(val)
+# print("the end of loop")
 
-x = range(5)
-for i in reversed(x):
-    print(i)
+# x = range(5)
+# for i in reversed(x):
+#     print(i)
 
-for i in reversed("Welcome"):
-    print(i)
+# for i in reversed("Welcome"):
+#     print(i)
+
+print(list(range(5, 10, 1)))
