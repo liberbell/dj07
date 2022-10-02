@@ -19,3 +19,6 @@ for i in range(100, 301):
     third_digit = int(num_str[2])
 
     if (first_digit % 2 == 0) and (second_digit % 2 == 0) and (third_digit % 2 == 0):
+        items.append(num_str)
+
+print(".".join(items))
