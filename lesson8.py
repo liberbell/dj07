@@ -39,3 +39,9 @@ print(list(range(5, 10, 1)))
 print(list(range(5, 10, 2)))
 print(tuple(range(5, -10, -2)))
 print(list(range(-2, -10, -2)))
+
+start = -2
+stop = -10
+step = -2
+for number in range(start, stop, step):
+    print(number)
