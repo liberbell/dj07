@@ -11,11 +11,15 @@
 # for i in range("C", "Y"):
 #     print(i)
 
-for i in range(5):
-    print(i)
+# for i in range(5):
+#     print(i)
 
-for i in range(3):
-    print("hello")
+# for i in range(3):
+#     print("hello")
 
-for _ in range(3):
-    print("hello")
+# for _ in range(3):
+#     print("hello")
+
+for i in range(5, 8):
+    print(i, "square is ", i ** 2)
+print("End of loop")
