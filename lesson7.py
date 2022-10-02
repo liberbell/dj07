@@ -91,7 +91,12 @@
 # else:
 #     print("No more characters left.")
 
-us_cities = ["New York", "Nashville", "Seattle"]
-for city in us_cities:
-    if city == "New York":
-        print("New York is present in the list.")
+# us_cities = ["New York", "Nashville", "Seattle"]
+# for city in us_cities:
+#     if city == "New York":
+#         print("New York is present in the list.")
+
+numbers = [11, 24, 95, 29, 0, 34, 35, 83, 61, 29, 1, 90, 16]
+for num in numbers:
+    if num % 2 == 0:
+        print("The list contains an even number: ", num)
