@@ -13,3 +13,7 @@
 items = []
 for i in range(100, 301):
     num_str = str(i)
+
+    first_digit = int(num_str[0])
+    second_digit = int(num_str[1])
+    third_digit = int(num_str[2])
