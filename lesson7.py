@@ -108,6 +108,6 @@
 #     else:
 #         print(year, " is not a leap year.")
 
-names = ["Bob", "Alex", "Eric", "Elton", "Jhon", "George"]
+names = [["Bob", "Alex", "Eric"], ["Elton", "Jhon", "George"]]
 for student in names:
     print(student)
