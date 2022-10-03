@@ -27,6 +27,6 @@ for num1 in range(1, 10):
     print("num = ", num1, ":", end=" ")
 
     for num2 in range(1, 10):
-        print("{:2d}".format(num1 + num2), end=" " )
+        print("{:2d}".format(num1 * num2), end=" " )
 
     print()
