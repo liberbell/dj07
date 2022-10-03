@@ -3,8 +3,13 @@
 #         break
 #     print(letter)
 
-for letter in "Python":
-    print(letter)
+# for letter in "Python":
+#     print(letter)
     
-    if letter == "o":
-        break
+#     if letter == "o":
+#         break
+
+for char in "icecream":
+    if char == "c":
+        print("The letter %s was found in the string. % char")
+        
