@@ -12,3 +12,5 @@ flattened_lists = []
 for cars_list in original_list:
     for car in cars_list:
         flattened_lists.append(car)
+
+print(flattened_lists)
