@@ -10,15 +10,18 @@
 #         num_list.append(i)
 # print(num_list)
 
-items = []
-for i in range(100, 501):
-    num_str = str(i)
+# items = []
+# for i in range(100, 501):
+#     num_str = str(i)
 
-    first_digit = int(num_str[0])
-    second_digit = int(num_str[1])
-    third_digit = int(num_str[2])
+#     first_digit = int(num_str[0])
+#     second_digit = int(num_str[1])
+#     third_digit = int(num_str[2])
 
-    if (first_digit % 2 == 0) and (second_digit % 2 == 0) and (third_digit % 2 == 0):
-        items.append(num_str)
+#     if (first_digit % 2 == 0) and (second_digit % 2 == 0) and (third_digit % 2 == 0):
+#         items.append(num_str)
 
-print(".".join(items))
+# print(".".join(items))
+
+for num1 in range(1, 10):
+    print("num = ", num1, ":", end=" ")
