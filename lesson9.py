@@ -11,7 +11,7 @@
 # print(num_list)
 
 items = []
-for i in range(100, 301):
+for i in range(100, 501):
     num_str = str(i)
 
     first_digit = int(num_str[0])
