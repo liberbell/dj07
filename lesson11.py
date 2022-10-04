@@ -24,12 +24,17 @@
 #         print("Terminating the loop...")
 
 #         break
-for i in range(5):
-    if i == 4:
-        break
-    print(i)
+# for i in range(5):
+#     if i == 4:
+#         break
+#     print(i)
 
-for i in range(1, 10):
-    if i >= 5:
+# for i in range(1, 10):
+#     if i >= 5:
+#         break
+#     print(i, "is less than 5.")
+my_list = range(10)
+
+for num in my_list:
+    if num ** 2 > 20:
         break
-    print(i, "is less than 5.")
