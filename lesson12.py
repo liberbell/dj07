@@ -17,7 +17,7 @@
 #     print(num, "is a prime number.")
 
 for i in range(3):
-    password = str(input("Enter a password"))
+    password = str(input("Enter a password: "))
     if password == "secret":
         print("You guessed the password :)")
         break
