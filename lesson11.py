@@ -32,3 +32,4 @@ for i in range(5):
 for i in range(1, 10):
     if i >= 5:
         break
+    print(i, "is less than 5.")
