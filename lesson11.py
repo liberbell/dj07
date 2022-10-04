@@ -16,11 +16,11 @@
 # else:
 #     print("The letter %s does not exist in the string." % char)
 
-for num in [3, 11, 22, 35, 90]:
-    print(num)
+# for num in [3, 11, 22, 35, 90]:
+#     print(num)
 
-    if (num == 22):
-        print("The number %d has been found" % num)
-        print("Terminating the loop...")
+#     if (num == 22):
+#         print("The number %d has been found" % num)
+#         print("Terminating the loop...")
 
-        break
+#         break
