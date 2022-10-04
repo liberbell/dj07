@@ -38,3 +38,4 @@ my_list = range(10)
 for num in my_list:
     if num ** 2 > 20:
         break
+    print(num, "square", num ** 2)
