@@ -40,7 +40,6 @@ new_dict = dict()
 
 for i, j in zip(months, num_days):
     new_dict.update({i:j})
-
     if new_dict[i] < 29:
         continue
 
