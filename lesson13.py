@@ -21,9 +21,13 @@
 #         continue
 #     print("Yes.")
 
-for num in range(1, 10):
-    if num % 2 == 0:
-        print("Found an even number: ", num)
-        continue
+# for num in range(1, 10):
+#     if num % 2 == 0:
+#         print("Found an even number: ", num)
+#         continue
 
-    print(num)
+#     print(num)
+
+for i in range(1, 12):
+    print()
+    print("Before the continue statement: ", i)
