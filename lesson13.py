@@ -16,3 +16,7 @@
 for i in range(1, 10):
     if i % 2 == 0:
         print("Is %s is an even number?" % i)
+
+    else:
+        continue
+    print("Yes.")
