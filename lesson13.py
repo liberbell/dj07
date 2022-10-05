@@ -43,3 +43,6 @@ for i, j in zip(months, num_days):
 
     if new_dict[i] < 29:
         continue
+
+    else:
+        print(i, "month has", new_dict[i], "days.")
