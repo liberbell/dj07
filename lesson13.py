@@ -5,10 +5,13 @@
 
 # print("The end.")
 
-my_string = "Students"
+# my_string = "Students"
 
-for letter in my_string:
-    if (letter == "e" or letter == "s"):
-        continue
-    else:
-        print(letter)
+# for letter in my_string:
+#     if (letter == "e" or letter == "s"):
+#         continue
+#     else:
+#         print(letter)
+
+for i in range(1, 10):
+    if i % 2 == 0:
