@@ -13,10 +13,17 @@
 #     else:
 #         print(letter)
 
-for i in range(1, 10):
-    if i % 2 == 0:
-        print("Is %s is an even number?" % i)
+# for i in range(1, 10):
+#     if i % 2 == 0:
+#         print("Is %s is an even number?" % i)
 
-    else:
-        continue
-    print("Yes.")
+#     else:
+#         continue
+#     print("Yes.")
+
+for num in range(1, 10):
+    if num % 2 == 0:
+        print("Found an even number: ", num)
+
+    continue
+print(num)
