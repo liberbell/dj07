@@ -35,5 +35,5 @@
 #         continue
 #     print("After the continue statement.", i)
 num_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-months = ["Jan", "Feb"]
+months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 new_dict = dict()
