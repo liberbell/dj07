@@ -31,3 +31,5 @@
 for i in range(1, 12):
     print()
     print("Before the continue statement: ", i)
+    if i % 3 == 0:
+        continue
