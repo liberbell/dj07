@@ -9,3 +9,6 @@ my_string = "Students"
 
 for letter in my_string:
     if (letter == "e" or letter == "s"):
+        continue
+    else:
+        print(letter)
