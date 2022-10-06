@@ -52,3 +52,5 @@ for pet in animals:
     if pet == "Lion":
         continue
     if pet == "Elephant":
+        break
+    print(pet)
