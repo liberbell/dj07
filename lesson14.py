@@ -36,3 +36,6 @@ for i in my_str:
         letters = letters + 1
     else:
         pass
+
+print("Digits: ", digits)
+print("Letters: ", letters)
