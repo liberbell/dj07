@@ -12,16 +12,21 @@
 #     else:
 #         print(i)
 
-odd_count = 0
-total_count = 0
-for i in range(10):
-    if(i % 2 == 0):
-        pass
-    else:
-        print(i)
-        odd_count += 1
+# odd_count = 0
+# total_count = 0
+# for i in range(10):
+#     if(i % 2 == 0):
+#         pass
+#     else:
+#         print(i)
+#         odd_count += 1
 
-    total_count += 1
+#     total_count += 1
 
-    print("Count of odd numbers: ", odd_count)
-    print("Total count of numbers: ", total_count, "\n")
+#     print("Count of odd numbers: ", odd_count)
+#     print("Total count of numbers: ", total_count, "\n")
+
+my_str = input("Input a string: ")
+digits = 0
+letters = 0
+for i in my_str:
