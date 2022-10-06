@@ -30,3 +30,7 @@ my_str = input("Input a string: ")
 digits = 0
 letters = 0
 for i in my_str:
+    if i.isdigit():
+        digits = digits + 1
+    elif i.isalpha():
+        letters = letters + 1
