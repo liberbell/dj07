@@ -4,4 +4,4 @@ for letter in "string":
         print("This is the pass block")
     else:
         print("Current Letter: ", letter)
-    print(letter)
+    # print(letter)
