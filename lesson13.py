@@ -47,3 +47,8 @@
 #         print(i, "month has", new_dict[i], "days.")
 
 animals = ["Deer", "Rabbit", "Lion", "Dog", "Cat", "Elephant", "Giraffe"]
+
+for pet in animals:
+    if pet == "Lion":
+        continue
+    if pet == "Elephant":
