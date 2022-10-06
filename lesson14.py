@@ -23,4 +23,5 @@ for i in range(10):
 
     total_count += 1
 
-    print("Count")
+    print("Count of odd numbers: ", odd_count)
+    print("Total count of numbers: ", total_count, "\n")
