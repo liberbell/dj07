@@ -34,14 +34,16 @@
 #     if i % 3 == 0:
 #         continue
 #     print("After the continue statement.", i)
-num_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-new_dict = dict()
+# num_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+# months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+# new_dict = dict()
 
-for i, j in zip(months, num_days):
-    new_dict.update({i:j})
-    if new_dict[i] < 29:
-        continue
+# for i, j in zip(months, num_days):
+#     new_dict.update({i:j})
+#     if new_dict[i] < 29:
+#         continue
 
-    else:
-        print(i, "month has", new_dict[i], "days.")
+#     else:
+#         print(i, "month has", new_dict[i], "days.")
+
+animals = ["Deer", "Rabbit", "Lion", "Dog", "Cat", "Elephant", "Giraffe"]
