@@ -34,3 +34,5 @@ for i in my_str:
         digits = digits + 1
     elif i.isalpha():
         letters = letters + 1
+    else:
+        pass
