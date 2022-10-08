@@ -15,4 +15,6 @@ num = range(10)
 # items = [word.upper() for word in list_of_words]
 # print(items)
 
-print([x * x for x in num if x % 2 != 0])
+# print([x * x for x in num if x % 2 != 0])
+number_list = [number for number in range(20) if number % 2 == 0]
+print(number_list)
