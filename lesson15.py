@@ -16,5 +16,9 @@ num = range(10)
 # print(items)
 
 # print([x * x for x in num if x % 2 != 0])
-number_list = [number for number in range(20) if number % 2 == 0]
-print(number_list)
+
+# number_list = [number for number in range(20) if number % 2 == 0]
+# print(number_list)
+
+multiples_27 = [i for i in range(300) if i % 27 == 0]
+print(multiples_27)
