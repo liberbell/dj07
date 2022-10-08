@@ -27,3 +27,4 @@ num = range(10)
 
 string = "Hello 12345 World"
 numbers = [int(x) for x in string if x.isdigit()]
+print(numbers)
