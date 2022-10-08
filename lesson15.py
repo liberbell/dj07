@@ -26,5 +26,8 @@ num = range(10)
 # print([i for i in "MATHEMATICS" if i in ["A", "E", "U", "I", "O"]])
 
 string = "Hello 12345 World"
-numbers = [int(x) for x in string if x.isdigit()]
-print(numbers)
+# numbers = [int(x) for x in string if x.isdigit()]
+# print(numbers)
+
+alpha = [x for x in string if x.isalpha()]
+print(alpha)
