@@ -5,3 +5,5 @@
 # print(letters)
 
 list_of_words = ["this", "is", "a", "list", "of", "words"]
+items = [word[0] for word in list_of_words]
+print(items)
