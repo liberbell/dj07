@@ -32,7 +32,9 @@ string = "Hello 12345 World"
 # alpha = [x for x in string if x.isalpha()]
 # print(alpha)
 
-stationary = ["Pen", "Marker", "Ink"]
-colors = ["Red", "Blue", "Gold"]
-combined = [(i, j) for j in stationary for i in colors]
-print(combined)
+# stationary = ["Pen", "Marker", "Ink"]
+# colors = ["Red", "Blue", "Gold"]
+# combined = [(i, j) for j in stationary for i in colors]
+# print(combined)
+
+number_list = [number for number in range(51) if number % 2 == 0 if number % 5 == 0]
