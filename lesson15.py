@@ -35,3 +35,4 @@ string = "Hello 12345 World"
 stationary = ["Pen", "Marker", "Ink"]
 colors = ["Red", "Blue", "Gold"]
 combined = [(i, j) for j in stationary for i in colors]
+print(combined)
