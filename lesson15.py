@@ -20,5 +20,7 @@ num = range(10)
 # number_list = [number for number in range(20) if number % 2 == 0]
 # print(number_list)
 
-multiples_27 = [i for i in range(300) if i % 27 == 0]
-print(multiples_27)
+# multiples_27 = [i for i in range(300) if i % 27 == 0]
+# print(multiples_27)
+
+print([i for i in "MATHEMATICS" if i in ["A", "E", "U", "I", "O"]])
