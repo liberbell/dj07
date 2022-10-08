@@ -29,5 +29,9 @@ string = "Hello 12345 World"
 # numbers = [int(x) for x in string if x.isdigit()]
 # print(numbers)
 
-alpha = [x for x in string if x.isalpha()]
-print(alpha)
+# alpha = [x for x in string if x.isalpha()]
+# print(alpha)
+
+stationary = ["Pen", "Marker", "Ink"]
+colors = ["Red", "Blue", "Gold"]
+combined = [(i, j) for j in stationary for i in colors]
