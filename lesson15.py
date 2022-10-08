@@ -23,4 +23,7 @@ num = range(10)
 # multiples_27 = [i for i in range(300) if i % 27 == 0]
 # print(multiples_27)
 
-print([i for i in "MATHEMATICS" if i in ["A", "E", "U", "I", "O"]])
+# print([i for i in "MATHEMATICS" if i in ["A", "E", "U", "I", "O"]])
+
+string = "Hello 12345 World"
+numbers = [int(x) for x in string if x.isdigit()]
