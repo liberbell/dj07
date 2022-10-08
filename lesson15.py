@@ -38,3 +38,4 @@ string = "Hello 12345 World"
 # print(combined)
 
 number_list = [number for number in range(51) if number % 2 == 0 if number % 5 == 0]
+print(number_list)
