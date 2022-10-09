@@ -7,3 +7,4 @@
 #     print(i, end=" ")
 
 original_list = [2, 3, 6, 7, 8, 11, 12, 13, 17, 18]
+cubes_list = [x ** 3 for x in original_list if x % 3 == 0]
