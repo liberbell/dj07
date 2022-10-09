@@ -37,5 +37,8 @@ string = "Hello 12345 World"
 # combined = [(i, j) for j in stationary for i in colors]
 # print(combined)
 
-number_list = [number for number in range(51) if number % 2 == 0 if number % 5 == 0]
-print(number_list)
+# number_list = [number for number in range(51) if number % 2 == 0 if number % 5 == 0]
+# print(number_list)
+
+num = ["EVEN" if i % 2 == 0 else "ODD" for i in range(10)]
+print(num)
