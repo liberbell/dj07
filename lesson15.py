@@ -40,5 +40,7 @@ string = "Hello 12345 World"
 # number_list = [number for number in range(51) if number % 2 == 0 if number % 5 == 0]
 # print(number_list)
 
-num = ["EVEN" if i % 2 == 0 else "ODD" for i in range(10)]
-print(num)
+# num = ["EVEN" if i % 2 == 0 else "ODD" for i in range(10)]
+# print(num)
+
+numbers = [22, 30, 45, 50, 18, 69, 43, 44, 12]
