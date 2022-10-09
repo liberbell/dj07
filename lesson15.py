@@ -44,3 +44,4 @@ string = "Hello 12345 World"
 # print(num)
 
 numbers = [22, 30, 45, 50, 18, 69, 43, 44, 12]
+print([x + 1 if x >= 45 else x + 5 for x in numbers])
