@@ -49,4 +49,4 @@ string = "Hello 12345 World"
 numbers = [22, 30, 45, 50, 18, 69, 43, 44, 12]
 # print([x + 1 if x >= 45 else x + 5 for x in numbers])
 
-z = ["small" if number < 20 else "large" for number in numbers]
+z = ["small" if number < 20 else "large" for number in numbers if number % 2 == 0 if number % 3 == 0]
