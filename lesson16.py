@@ -4,3 +4,4 @@ for i in lists_of_num:
         break
     if(i % 7 == 0):
         continue
+    print(i, end=" ")
