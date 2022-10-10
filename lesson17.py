@@ -37,3 +37,5 @@ name = input("Enter your name: ")
 count = 1
 while count <= num_value:
     print(count, ":", name)
+
+    count += 1
