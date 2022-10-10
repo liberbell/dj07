@@ -34,3 +34,6 @@ import numbers
 
 num_value = int(input("Enter a number: "))
 name = input("Enter your name: ")
+count = 1
+while count <= num_value:
+    print(count, ":", name)
