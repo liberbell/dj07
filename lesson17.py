@@ -62,4 +62,4 @@ from operator import le
 # print("number of digits: ", length)
 
 x, y = 0, 8
-while(x < y): x = x + y; print(x, y)
+while(x < y): x = x + 1; print(x, y)
