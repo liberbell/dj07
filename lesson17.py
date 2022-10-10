@@ -1,4 +1,5 @@
 import numbers
+from operator import le
 
 
 # number = 20
@@ -57,3 +58,5 @@ length = 0
 
 while value_int > 0:
     value_int //= 0
+    length += 1
+print("number of digits: ", length)
