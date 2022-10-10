@@ -22,7 +22,7 @@ import numbers
 #     print("%s is an amazing soccer player." % name)
 
 #     name = "Eric"
-password = ""
+user_password = ""
 while user_password != "password":
     user_password = input("Enter pass: ")
 print("\nAccess granted!")
