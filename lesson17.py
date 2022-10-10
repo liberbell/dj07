@@ -32,10 +32,15 @@ import numbers
 #     print(num ** 2)
 #     num += 1
 
-num_value = int(input("Enter a number: "))
-name = input("Enter your name: ")
-count = 1
-while count <= num_value:
-    print(count, ":", name)
+# num_value = int(input("Enter a number: "))
+# name = input("Enter your name: ")
+# count = 1
+# while count <= num_value:
+#     print(count, ":", name)
 
-    count += 1
+#     count += 1
+
+num = 0
+while num in range(0, 10):
+    print(num)
+    num += 1
