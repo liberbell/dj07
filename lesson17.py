@@ -25,3 +25,4 @@ import numbers
 password = ""
 while user_password != "password":
     user_password = input("Enter pass: ")
+print("\nAccess granted!")
