@@ -40,7 +40,14 @@ import numbers
 
 #     count += 1
 
+# num = 0
+# while num in range(0, 10):
+#     print(num)
+#     num += 1
+
 num = 0
 while num in range(0, 10):
-    print(num)
+    if num % 2 == 0:
+        print("even number: ", num)
+
     num += 1
