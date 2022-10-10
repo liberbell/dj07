@@ -13,3 +13,6 @@ import numbers
 num = 5
 while num:
     print("Value of num is: ", num)
+    num = num -1
+
+print("Good bye.")
