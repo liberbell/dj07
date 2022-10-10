@@ -27,7 +27,10 @@ import numbers
 #     user_password = input("Enter pass: ")
 # print("\nAccess granted!")
 
-num = 1
-while num <= 10:
-    print(num ** 2)
-    num += 1
+# num = 1
+# while num <= 10:
+#     print(num ** 2)
+#     num += 1
+
+num_value = int(input("Enter a number: "))
+name = input("Enter your name: ")
