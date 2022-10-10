@@ -28,3 +28,7 @@ element = 0
 # print("sum of all the element in the list: ", total)
 
 smartphone_brands = ["Sony", "Huawai", "Apple", "Google", "Nokia", "OnePlus", "Vivo"]
+count = 0
+
+while count < 10:
+    
