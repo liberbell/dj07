@@ -45,9 +45,15 @@ import numbers
 #     print(num)
 #     num += 1
 
-num = 0
-while num in range(0, 10):
-    if num % 2 == 0:
-        print("even number: ", num)
+# num = 0
+# while num in range(0, 10):
+#     if num % 2 == 0:
+#         print("even number: ", num)
 
-    num += 1
+#     num += 1
+
+value_int = int(input("Enter an integer: "))
+length = 0
+
+while value_int > 0:
+    value_int //= 0
