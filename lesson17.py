@@ -10,9 +10,12 @@ import numbers
 #     print(number)
     
 #     number += 1
-num = 5
-while num:
-    print("Value of num is: ", num)
-    num = num -1
+# num = 5
+# while num:
+#     print("Value of num is: ", num)
+#     num = num -1
 
-print("Good bye.")
+# print("Good bye.")
+
+name = "Hepbarn"
+while name == "Hepbarn":
