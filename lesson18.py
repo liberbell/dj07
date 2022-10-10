@@ -13,10 +13,13 @@ num_list = [20, 30, 40, 50, 60]
 
 total = 0
 element = 0
-while element < len(num_list):
-    total = total + num_list[element]
-    print(total)
+# while element < len(num_list):
+#     total = total + num_list[element]
+#     print(total)
 
-    element += 1
+#     element += 1
 
-print("sum of the elements in the list: ", total)
+# print("sum of the elements in the list: ", total)
+
+for element in num_list:
+    totla += element
