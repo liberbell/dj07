@@ -17,8 +17,11 @@ import numbers
 
 # print("Good bye.")
 
-name = "Hepbarn"
-while name == "Hepbarn":
-    print("%s is an amazing soccer player." % name)
+# name = "Hepbarn"
+# while name == "Hepbarn":
+#     print("%s is an amazing soccer player." % name)
 
-    name = "Eric"
+#     name = "Eric"
+password = ""
+while user_password != "password":
+    user_password = input("Enter pass: ")
