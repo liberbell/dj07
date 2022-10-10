@@ -22,4 +22,7 @@ element = 0
 # print("sum of the elements in the list: ", total)
 
 for element in num_list:
-    totla += element
+    total += element
+    print(total)
+
+print("sum of all the element in the list: ", total)
