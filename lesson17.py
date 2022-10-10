@@ -22,7 +22,11 @@ import numbers
 #     print("%s is an amazing soccer player." % name)
 
 #     name = "Eric"
-user_password = ""
-while user_password != "password":
-    user_password = input("Enter pass: ")
-print("\nAccess granted!")
+# user_password = ""
+# while user_password != "password":
+#     user_password = input("Enter pass: ")
+# print("\nAccess granted!")
+
+num = 1
+while num <= 10:
+    print(num ** 2)
