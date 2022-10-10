@@ -31,4 +31,6 @@ smartphone_brands = ["Sony", "Huawai", "Apple", "Google", "Nokia", "OnePlus", "V
 count = 0
 
 while count < 10:
-    
+    print(smartphone_brands[count])
+
+    count += count
