@@ -19,3 +19,6 @@ import numbers
 
 name = "Hepbarn"
 while name == "Hepbarn":
+    print("%s is an amazing soccer player." % name)
+
+    name = "Eric"
