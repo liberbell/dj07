@@ -21,8 +21,10 @@ element = 0
 
 # print("sum of the elements in the list: ", total)
 
-for element in num_list:
-    total += element
-    print(total)
+# for element in num_list:
+#     total += element
+#     print(total)
 
-print("sum of all the element in the list: ", total)
+# print("sum of all the element in the list: ", total)
+
+smartphone_brands = ["Sony", "Huawai", "Apple", "Google", "Nokia", "OnePlus", "Vivo"]
