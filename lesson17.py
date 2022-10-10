@@ -61,5 +61,11 @@ from operator import le
 #     length += 1
 # print("number of digits: ", length)
 
-x, y = 0, 8
-while(x < y): x = x + 1; print(x, y)
+# x, y = 0, 8
+# while(x < y): x = x + 1; print(x, y)
+
+x = 1
+while x < 5:
+    y = 1
+    while y < 5:
+        print(x, y)
