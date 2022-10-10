@@ -15,3 +15,6 @@ total = 0
 element = 0
 while element < len(num_list):
     total = total + num_list[element]
+    print(total)
+
+    element += 1
