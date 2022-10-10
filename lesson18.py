@@ -3,3 +3,4 @@ count = 0
 
 while count < len(num_list):
     print(num_list[count])
+    count = count + 1
