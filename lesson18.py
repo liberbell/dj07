@@ -18,3 +18,5 @@ while element < len(num_list):
     print(total)
 
     element += 1
+
+print("sum of the elements in the list: ", total)
