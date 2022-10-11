@@ -64,11 +64,16 @@ element = 0
 #     print( " %5d %5.1f " % (C, F))
 #     index += 1
 
-name_list = ["Bob", "Eric", "Alex", "George", "Elton"]
-age_list = [65, 72, 38, 68, 75]
+# name_list = ["Bob", "Eric", "Alex", "George", "Elton"]
+# age_list = [65, 72, 38, 68, 75]
 
-index = 0
-while index < len(name_list):
-    print(name_list[index], "is", age_list[index], "years old.")
+# index = 0
+# while index < len(name_list):
+#     print(name_list[index], "is", age_list[index], "years old.")
 
-    index += 1
+#     index += 1
+
+alpha_touple = ("a", "b", "c", "d", "e", "f", "g")
+count = 0
+while count < 8:
+    print(alpha_touple[count])
