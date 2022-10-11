@@ -73,7 +73,9 @@ element = 0
 
 #     index += 1
 
-alpha_touple = ("a", "b", "c", "d", "e", "f", "g")
-count = 0
-while count < 8:
-    print(alpha_touple[count])
+# alpha_touple = ("a", "b", "c", "d", "e", "f", "g", "h")
+# count = 0
+# while count < 8:
+#     print(alpha_touple[count])
+
+#     count += 1
