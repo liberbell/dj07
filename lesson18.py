@@ -46,8 +46,9 @@ num = 0
 
 while num <= 50:
     if num % 2 == 0:
-        even_list.append(nume)
-    else:
         even_list.append(num)
+    else:
+        odd_list.append(num)
     num += 1
 print(even_list)
+print(odd_list)
