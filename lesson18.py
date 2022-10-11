@@ -69,6 +69,6 @@ age_list = [65, 72, 38, 68, 75]
 
 index = 0
 while index < len(name_list):
-    print(name_list[index], ":", age_list[index])
+    print(name_list[index], "is", age_list[index], "years old.")
 
     index += 1
