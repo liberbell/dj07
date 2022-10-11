@@ -1,3 +1,6 @@
+from unicodedata import name
+
+
 num_list = [20, 30, 40, 50, 60]
 # count = 0
 
@@ -79,3 +82,7 @@ element = 0
 #     print(alpha_touple[count])
 
 #     count += 1
+
+name_list = ("Bob", "Eric", "Alex", "George", "Elton")
+long_name = name_list[0]
+index = 0
