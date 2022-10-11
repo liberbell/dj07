@@ -60,3 +60,6 @@ print("   C   F")
 while index < len(c_degrees):
     C = c_degrees[index]
     F = (9.0 / 5) * C + 32
+
+    print( " %5d %5.1f " % (C, F))
+    index += 1
