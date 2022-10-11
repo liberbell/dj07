@@ -33,4 +33,4 @@ count = 0
 while count < 10:
     print(smartphone_brands[count])
 
-    count += 1
+    count = count + 1
