@@ -30,7 +30,7 @@ element = 0
 smartphone_brands = ["Sony", "Huawai", "Apple", "Google", "Nokia", "OnePlus", "Vivo"]
 count = 0
 
-while count < 10:
+while count < len(smartphone_brands):
     print(smartphone_brands[count])
 
     count = count + 1
