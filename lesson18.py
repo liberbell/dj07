@@ -27,15 +27,19 @@ element = 0
 
 # print("sum of all the element in the list: ", total)
 
-smartphone_brands = ["Sony", "Huawai", "Apple", "Google", "Nokia", "OnePlus", "Vivo"]
-count = 0
+# smartphone_brands = ["Sony", "Huawai", "Apple", "Google", "Nokia", "OnePlus", "Vivo"]
+# count = 0
 
 # while count < len(smartphone_brands):
 #     print(smartphone_brands[count])
 
 #     count = count + 1
 
-while count < len(smartphone_brands):
-    print(smartphone_brands[count])
+# while count < len(smartphone_brands):
+#     print(smartphone_brands[count])
 
-    count += 1
+#     count += 2
+
+even_list = []
+odd_list = []
+num = 0
