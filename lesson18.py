@@ -86,3 +86,6 @@ element = 0
 name_list = ("Bob", "Eric", "Alex", "George", "Elton")
 long_name = name_list[0]
 index = 0
+
+while index < len(name_list):
+    if len(long_name) < len(name_list[index]):
