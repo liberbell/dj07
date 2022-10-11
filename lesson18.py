@@ -55,3 +55,7 @@ element = 0
 
 c_degrees = [-20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
 index = 0
+
+print("   C   F")
+while index < len(c_degrees):
+    C = c_degrees[index]
