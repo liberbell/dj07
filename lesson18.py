@@ -66,3 +66,7 @@ element = 0
 
 name_list = ["Bob", "Eric", "Alex", "George", "Elton"]
 age_list = [65, 72, 38, 68, 75]
+
+index = 0
+while index <= len(name_list):
+    print(name_list[index], ":", age_list[index])
