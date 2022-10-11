@@ -53,13 +53,16 @@ element = 0
 # print(even_list)
 # print(odd_list)
 
-c_degrees = [-20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
-index = 0
+# c_degrees = [-20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
+# index = 0
 
-print("   C   F")
-while index < len(c_degrees):
-    C = c_degrees[index]
-    F = (9.0 / 5) * C + 32
+# print("   C     F")
+# while index < len(c_degrees):
+#     C = c_degrees[index]
+#     F = (9.0 / 5) * C + 32
 
-    print( " %5d %5.1f " % (C, F))
-    index += 1
+#     print( " %5d %5.1f " % (C, F))
+#     index += 1
+
+name_list = ["Bob", "Eric", "Alex", "George", "Elton"]
+age_list = [65, 72, 38, 68, 75]
