@@ -40,15 +40,18 @@ element = 0
 
 #     count += 2
 
-even_list = []
-odd_list = []
-num = 0
+# even_list = []
+# odd_list = []
+# num = 0
 
-while num <= 50:
-    if num % 2 == 0:
-        even_list.append(num)
-    else:
-        odd_list.append(num)
-    num += 1
-print(even_list)
-print(odd_list)
+# while num <= 50:
+#     if num % 2 == 0:
+#         even_list.append(num)
+#     else:
+#         odd_list.append(num)
+#     num += 1
+# print(even_list)
+# print(odd_list)
+
+c_degrees = [-20, -15, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
+index = 0
