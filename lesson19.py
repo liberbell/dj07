@@ -30,3 +30,4 @@ num = 10
 #     if place[index] == "C":
 #         break
 clean_haystack = ["hay", "hay", "hay", "hay", "hay", "hay", "hay", "hay"]
+unclean_haystack = ["hay", "hay", "hay", "hay", "needle", "hay", "hay", "hay"]
