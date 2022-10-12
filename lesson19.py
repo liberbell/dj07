@@ -42,3 +42,5 @@ while i < maximum:
         del clean_haystack[i]
         break
     i += 1
+else:
+    print("\nThe needle was not found :(")
