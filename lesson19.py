@@ -9,3 +9,6 @@ while num in range(10, 100):
 
     if num == 50:
         break
+
+    num += 10
+print("out of the loop")
