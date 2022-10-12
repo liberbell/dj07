@@ -19,13 +19,14 @@ num = 10
 
 # print("\nWe are out of the loop since we encoountered the number:", num)
 
-place = "NewYorkCity"
-place_length = len(place)
+# place = "NewYorkCity"
+# place_length = len(place)
 
-index = 0
-while index in range(place_length):
-    print(place[index])
-    index += 1
+# index = 0
+# while index in range(place_length):
+#     print(place[index])
+#     index += 1
 
-    if place[index] == "C":
-        break
+#     if place[index] == "C":
+#         break
+clean_haystack = ["hay", "hay", "hay", "hay", "hay", "hay", "hay", "hay"]
