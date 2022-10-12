@@ -31,3 +31,6 @@ num = 10
 #         break
 clean_haystack = ["hay", "hay", "hay", "hay", "hay", "hay", "hay", "hay"]
 unclean_haystack = ["hay", "hay", "hay", "hay", "needle", "hay", "hay", "hay"]
+seaching_for = "needle"
+maximum = len(clean_haystack)
+i = 0
