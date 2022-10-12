@@ -12,9 +12,16 @@ num = 10
 
 #     num += 10
 # print("out of the loop")
-while True:
-    num = int(input("Enter a number: "))
-    if num % 3 == 0:
-        break
+# while True:
+#     num = int(input("Enter a number: "))
+#     if num % 3 == 0:
+#         break
 
-print("\nWe are out of the loop since we encoounterd the number:", num)
+# print("\nWe are out of the loop since we encoountered the number:", num)
+
+place = "NewYorkCity"
+place_length = len(place)
+
+index = 0
+while index in range(place_length):
+    print(place[index])
