@@ -6,3 +6,6 @@
 num = 10
 while num in range(10, 100):
     print(num)
+
+    if num == 50:
+        break
