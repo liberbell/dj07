@@ -37,3 +37,4 @@ i = 0
 
 while i < maximum:
     if seaching_for == clean_haystack[i]:
+        print("The %s is at index %i: " % (seaching_for, i))
