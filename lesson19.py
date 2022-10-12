@@ -25,3 +25,7 @@ place_length = len(place)
 index = 0
 while index in range(place_length):
     print(place[index])
+    index += 1
+
+    if place[index] == "C":
+        break
