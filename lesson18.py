@@ -89,3 +89,8 @@ index = 0
 
 while index < len(name_list):
     if len(long_name) < len(name_list[index]):
+        long_name = name_list[index]
+
+    index += 1
+
+print("The longest name in the tuple is: ", long_name)
