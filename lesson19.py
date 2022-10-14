@@ -80,7 +80,7 @@ num = 10
 #     num_value = num_value - 1
 
 # print("bye!")
-num_value = input("Enter a number: ")
+num_value = int(input("Enter a number: "))
 while num_value > 0:
     if num_value < 8 and num_value > 4:
         pass
