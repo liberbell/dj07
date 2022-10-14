@@ -86,3 +86,7 @@ while num_value > 0:
         pass
     else:
         print("current value is :", num_value)
+
+    num_value = num_value - 1
+else:
+    print("good bye")
