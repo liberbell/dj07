@@ -76,3 +76,7 @@ while num_value > 0:
     if num_value == 5:
         pass
         print("This is a pass block.")
+
+    num_value = num_value - 1
+
+print("bye!")
