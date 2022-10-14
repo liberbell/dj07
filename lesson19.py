@@ -3,6 +3,9 @@
 # while number < 25:
 #     print(number)
 #     break
+from sys import maxunicode
+
+
 num = 10
 # while num in range(10, 100):
 #     print(num)
@@ -48,3 +51,5 @@ num = 10
 
 max_num = int(input("Enter an integer:"))
 num = 2
+
+print("Prime number upto %i " % max_num)
