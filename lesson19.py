@@ -53,3 +53,11 @@ max_num = int(input("Enter an integer:"))
 num = 2
 
 print("Prime number upto %i " % max_num)
+while num < max_num + 1:
+    isPrime = True
+    count = 2
+
+    while count < num:
+        if num % count == 0:
+            isPrime = False
+            break
