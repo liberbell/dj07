@@ -40,6 +40,7 @@ while i < maximum:
         print("The %s is at index %i: " % (seaching_for, i))
 
         del unclean_haystack[i]
+        print("The updated haystack is: ", unclean_haystack)
         break
     i += 1
 else:
