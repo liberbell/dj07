@@ -69,14 +69,18 @@ num = 10
 
 #     num += 1
 
-num_value = 10
+# num_value = 10
+# while num_value > 0:
+#     print("current value is: ", num_value)
+
+#     if num_value == 5:
+#         pass
+#         print("This is a pass block.")
+
+#     num_value = num_value - 1
+
+# print("bye!")
+num_value = input("Enter a number: ")
 while num_value > 0:
-    print("current value is: ", num_value)
-
-    if num_value == 5:
+    if num_value < 8 and num_value > 4:
         pass
-        print("This is a pass block.")
-
-    num_value = num_value - 1
-
-print("bye!")
