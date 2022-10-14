@@ -6,3 +6,4 @@ while num < 10:
         continue
 
     print("odd number : ", num)
+print("bye!")
