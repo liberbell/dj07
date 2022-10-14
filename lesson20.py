@@ -12,3 +12,6 @@ my_list = []
 num = 0
 
 while num in range(0, 50):
+    num += 1
+    if num % 5 == 0 or num % 7 == 0:
+        continue
