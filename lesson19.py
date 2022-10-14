@@ -50,21 +50,29 @@ num = 10
 # else:
 #     print("\nThe needle was not found :(")
 
-max_num = int(input("Enter an integer:"))
-num = 2
+# max_num = int(input("Enter an integer:"))
+# num = 2
 
-print("Prime number upto %i " % max_num)
-while num < max_num + 1:
-    isPrime = True
-    count = 2
+# print("Prime number upto %i " % max_num)
+# while num < max_num + 1:
+#     isPrime = True
+#     count = 2
 
-    while count < num:
-        if num % count == 0:
-            isPrime = False
-            break
-        count += 1
+#     while count < num:
+#         if num % count == 0:
+#             isPrime = False
+#             break
+#         count += 1
 
-    if isPrime:
-        print(num)
+#     if isPrime:
+#         print(num)
 
-    num += 1
+#     num += 1
+
+num_value = 10
+while num_value > 0:
+    print("current value is: ", num_value)
+
+    if num_value == 5:
+        pass
+        print("This is a pass block.")
