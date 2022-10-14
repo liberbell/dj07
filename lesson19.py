@@ -36,10 +36,10 @@ maximum = len(clean_haystack)
 i = 0
 
 while i < maximum:
-    if seaching_for == clean_haystack[i]:
+    if seaching_for == unclean_haystack[i]:
         print("The %s is at index %i: " % (seaching_for, i))
 
-        del clean_haystack[i]
+        del unclean_haystack[i]
         break
     i += 1
 else:
