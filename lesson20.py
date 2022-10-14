@@ -1,9 +1,14 @@
+# num = 0
+# while num < 10:
+#     num = num + 1
+
+#     if num % 2 == 0:
+#         continue
+
+#     print("odd number : ", num)
+# print("bye!")
+
+my_list = []
 num = 0
-while num < 10:
-    num = num + 1
 
-    if num % 2 == 0:
-        continue
-
-    print("odd number : ", num)
-print("bye!")
+while num in range(0, 50):
