@@ -29,19 +29,22 @@ num = 10
 
 #     if place[index] == "C":
 #         break
-clean_haystack = ["hay", "hay", "hay", "hay", "hay", "hay", "hay", "hay"]
-unclean_haystack = ["hay", "hay", "hay", "hay", "needle", "hay", "hay", "hay"]
-seaching_for = "needle"
-maximum = len(clean_haystack)
-i = 0
+# clean_haystack = ["hay", "hay", "hay", "hay", "hay", "hay", "hay", "hay"]
+# unclean_haystack = ["hay", "hay", "hay", "hay", "needle", "hay", "hay", "hay"]
+# seaching_for = "needle"
+# maximum = len(clean_haystack)
+# i = 0
 
-while i < maximum:
-    if seaching_for == unclean_haystack[i]:
-        print("The %s is at index %i: " % (seaching_for, i))
+# while i < maximum:
+#     if seaching_for == unclean_haystack[i]:
+#         print("The %s is at index %i: " % (seaching_for, i))
 
-        del unclean_haystack[i]
-        print("The updated haystack is: ", unclean_haystack)
-        break
-    i += 1
-else:
-    print("\nThe needle was not found :(")
+#         del unclean_haystack[i]
+#         print("The updated haystack is: ", unclean_haystack)
+#         break
+#     i += 1
+# else:
+#     print("\nThe needle was not found :(")
+
+max_num = int(input("Enter an integer:"))
+num = 2
