@@ -3,6 +3,7 @@
 # while number < 25:
 #     print(number)
 #     break
+from pydoc import ispackage
 from sys import maxunicode
 
 
@@ -61,3 +62,9 @@ while num < max_num + 1:
         if num % count == 0:
             isPrime = False
             break
+        count += 1
+
+    if isPrime:
+        print(num)
+
+    num += 1
