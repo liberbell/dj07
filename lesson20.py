@@ -30,3 +30,4 @@ while True:
         continue
 
     value = int(value)
+    print("Cube of %d is %d" %(value, value ** 3))
