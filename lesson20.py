@@ -23,3 +23,7 @@ while True:
 
     if value == "out":
         print("Bye! (break statement executed.")
+        break
+
+    if not value.isdigit():
+        print("")
