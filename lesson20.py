@@ -20,3 +20,6 @@
 # print(my_list)
 while True:
     value = input("\nEnter a number: ")
+
+    if value == "out":
+        print("Bye! (break statement executed.")
