@@ -4,3 +4,7 @@ while True:
 
     if response == "quit":
         print("The correct answer is London. Better luck next time.")
+        break
+
+    if response.upper() == "LONDON":
+        print("That is the correct answer.")
