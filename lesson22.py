@@ -1,3 +1,3 @@
 import dash
-from dash_core_components as dcc
-from dash_html_components as html
+import dash_core_components as dcc
+import dash_html_components as html
