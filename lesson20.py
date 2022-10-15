@@ -26,4 +26,7 @@ while True:
         break
 
     if not value.isdigit():
-        print("")
+        print("Enter integers only (continue statement executed.")
+        continue
+
+    value = int(value)
