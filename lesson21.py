@@ -8,3 +8,6 @@ while True:
 
     if response.upper() == "LONDON":
         print("That is the correct answer.")
+        break
+    else:
+        print("That is not the correct answer...Try again.")
