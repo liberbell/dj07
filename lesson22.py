@@ -26,5 +26,5 @@ app.layout = html.Div(children =[
     )
 ])
 
-if __name__ == "__main":
+if __name__ == "__main__":
     app.run server(debug=True)
