@@ -27,8 +27,9 @@ app.laylout = html.Div([
                     mode="markers",
                     opacity=0.7,
                     marker={
-                        "size":10,
-                    }
+                        "size":10
+                    },
+                    name="Group 1"
                 )
             ]
         }
