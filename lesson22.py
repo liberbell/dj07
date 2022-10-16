@@ -26,9 +26,9 @@ app.layout = html.Div(children =[
         
         style = {
             "textalign": "Center",
-            "color": colors["text"]
-        },
-    ),
+            "color": colors["text"],
+        }
+    },
     dcc.Graph(
         id = "example-graph",
         figure = {
