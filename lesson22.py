@@ -39,6 +39,7 @@ app.layout = html.Div(children =[
             "layout": {
                 "title": "Dash data Visualization",
                 "plot_bgcolor": colors["background"],
+                "paper_bgcolor": colors["background"],
             }
         }
     )
