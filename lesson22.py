@@ -22,7 +22,7 @@ app.layout = html.Div(children =[
     html.Div(
         children = '''
         Dash: A web application framework for python.
-        '''
+        ''',
         
         style = {
             "textalign": "Center",
