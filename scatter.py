@@ -16,7 +16,7 @@ external_stylesheet = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheet)
 
-app.laylout = html.Div([
+app.layout = html.Div([
     dcc.Graph(
         id = "sample-scatter",
         figure = {
