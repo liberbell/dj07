@@ -18,7 +18,20 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheet)
 
 app.laylout = html.Div([
     dcc.Graph(
-        "id": "sample-scatter",
+        id = "sample-scatter",
+        figure = {
+            "data": [
+                go.Scatter(
+                    x=x1,
+                    y=y1,
+                    mode="markers",
+                    opacity=0.7,
+                    marker={
+                        "size":10,
+                    }
+                )
+            ]
+        }
     )
 ])
 
