@@ -15,7 +15,7 @@ app.layout = html.Div(children =[
     html.H1(
         children="Hello Dash",
         style={
-            "textAlign": "Center",
+            "textAlign": "center",
             "color": colors["text"],
             "background-color": colors["background"],
         }
@@ -25,10 +25,10 @@ app.layout = html.Div(children =[
         Dash: A web application framework for python.
         ''',
         
-        style = {
-            "textalign": "Center",
+        style={
+            "textAlign": "center",
             "color": colors["text"],
-            "background-color": colors["background"]
+            "background-color": colors["background"],
         }
     ),
     dcc.Graph(
