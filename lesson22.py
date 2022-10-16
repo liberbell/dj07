@@ -19,7 +19,7 @@ app.layout = html.Div(children =[
                 {"x": [1, 2, 3], "y": [2, 4, 5], "type": "bar", "name": "Montreal"},
             ],
             "layout": {
-                "title":
+                "title": "Dash data Visualization"
             }
         }
     )
