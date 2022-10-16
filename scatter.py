@@ -1,6 +1,8 @@
 import dash
 from dash import dcc
 from dash import html
+import numpy as np
+import plotly.graph_objs as go
 
 external_stylesheet = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 
