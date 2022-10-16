@@ -19,9 +19,15 @@ app.layout = html.Div(children =[
             "color": colors["text"],
         }
         ),
-    html.Div(children = '''
-    Dash: A web application framework for python.
-    '''),
+    html.Div(
+        children = '''
+        Dash: A web application framework for python.
+        '''),
+        
+        style = {
+            "textalign": "Center",
+            "color": colors["text"]
+        }
 
     dcc.Graph(
         id = "example-graph",
