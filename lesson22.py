@@ -1,3 +1,5 @@
+from distutils.log import debug
+from http import server
 import dash
 from dash import dcc
 from dash import html
@@ -24,3 +26,6 @@ app.layout = html.Div(children =[
         }
     )
 ])
+
+if __name__ == "__main":
+    app.run server(debug=True)
