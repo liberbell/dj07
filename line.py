@@ -1,6 +1,7 @@
 import dash
 from dash import dcc
 from dash import html
+import plotly.graph_objs as go
 import pandas as pd
 
 
@@ -12,15 +13,9 @@ df=pd.read_csv("time_series.csv")
 # print(df.head())
 # print(df["MSFT"])
 
-# app.layout=html.Div([
-#     dcc.Graph(
-#         id = "Sample-Line",
-#         figure = {
-#             "data": [
-#                 go.Scatter(
-app.layout = html.Div([
+app.layout=html.Div([
     dcc.Graph(
-        id = "sample-Line",
+        id = "Sample-Line",
         figure = {
             "data": [
                 go.Scatter(
