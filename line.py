@@ -12,9 +12,15 @@ df=pd.read_csv("time_series.csv")
 # print(df.head())
 # print(df["MSFT"])
 
-app.layout=html.Div([
+# app.layout=html.Div([
+#     dcc.Graph(
+#         id = "Sample-Line",
+#         figure = {
+#             "data": [
+#                 go.Scatter(
+app.layout = html.Div([
     dcc.Graph(
-        id = "Sample-Line",
+        id = "sample-Line",
         figure = {
             "data": [
                 go.Scatter(
