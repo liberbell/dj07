@@ -36,9 +36,13 @@ app.layout=html.Div([
                     marker={
                         "size":15,
                     },
-                    name="Microsoft"
+                    name="Apple"
                 )
-            ]
+            ],
+            "layoout": go.Layout(
+                xaxis={"title": "X AXIS"},
+                yaxis={"title": "Y AXIS"}
+            )
         }
     )
 ])
