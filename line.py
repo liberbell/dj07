@@ -15,9 +15,22 @@ df=pd.read_csv("time_series.csv")
 app.layout=html.Div([
     dcc.Graph(
         id="Sample-Line",
-        
+        figure={
+            "data":[
+                go.Scatter(
+                    x=df["date"],
+                    y=df["MSFT"],
+                    mode="lines",
+                    opacity=0.5,
+                    marker={
+                        "size"=15,
+                    },
+                    name="Microsoft"
+                )
+            ]
+        }
     )
 ])
 
-# if __name__ == "__main__":
-#     app.run_server(debug=True)
+if __name__ == "__main__":
+    app.run_server(debug=True)
