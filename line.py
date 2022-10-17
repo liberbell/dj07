@@ -23,7 +23,7 @@ app.layout=html.Div([
                     mode="lines",
                     opacity=0.5,
                     marker={
-                        "size"=15,
+                        "size":15,
                     },
                     name="Microsoft"
                 )
