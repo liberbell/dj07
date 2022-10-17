@@ -30,6 +30,11 @@ app.layout = html.Div([
                         "size":8
                     },
                     name="Group 1"
+                ),
+                go.Scatter(
+                    x=x2,
+                    y=y2,
+                    mode="markers",
                 )
             ]
         }
