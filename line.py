@@ -14,9 +14,9 @@ df=pd.read_csv("time_series.csv")
 
 app.layout=html.Div([
     dcc.Graph(
-        id="Sample-Line",
-        figure={
-            "data":[
+        id = "Sample-Line",
+        figure = {
+            "data": [
                 go.Scatter(
                     x=df["date"],
                     y=df["MSFT"],
