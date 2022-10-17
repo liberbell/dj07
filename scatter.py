@@ -35,6 +35,12 @@ app.layout = html.Div([
                     x=x2,
                     y=y2,
                     mode="markers",
+                    opacity=0.4,
+                    marker={
+                        "size":8,
+                        "color": "red"
+                    },
+                    name="Group 2"
                 )
             ]
         }
