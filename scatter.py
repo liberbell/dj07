@@ -42,7 +42,11 @@ app.layout = html.Div([
                     },
                     name="Group 2"
                 )
-            ]
+            ],
+            "layout": go.Layout(
+                xaxis={"title": "X AXIS"},
+                yaxis={"title": "Y AXIS"}
+            )
         }
     )
 ])
