@@ -27,14 +27,13 @@ app.layout = html.Div([
         multi= True
     ),
     html.Label("Radio items"),
-    dcc.Radioitems(
+    dcc.RadioItems(
         options=[
             {"label": "Bob", "value": "bob"},
             {"label": "Eric", "value": "eric"},
             {"label": "Alex", "value": "alex"},
         ],
-        value= ["eric", "alex"],
-        multi= True
+        value= ["eric", "alex"]
     )
 #     dcc.Markdown('''
 # # Title 1
