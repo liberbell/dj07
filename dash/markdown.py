@@ -46,7 +46,14 @@ app.layout = html.Div([
     ),
 
     html.Label("Text Input"),
-    dcc.Input(value="eric", type="text")
+    dcc.Input(value="eric", type="text"),
+
+    html.Label("Slider"),
+    dcc.Slider(
+        min=0,
+        max=10,
+        marks={i:i for i in range(1, 6)},
+    )
 #     dcc.Markdown('''
 # # Title 1
 # ## Title 2
