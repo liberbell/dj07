@@ -13,7 +13,8 @@ app.layout = html.Div([
             {"label": "Bob", "value": "bob"},
             {"label": "Eric", "value": "eric"},
             {"label": "Alex", "value": "alex"},
-        ]
+        ],
+        value= "George"
     )
 #     dcc.Markdown('''
 # # Title 1
