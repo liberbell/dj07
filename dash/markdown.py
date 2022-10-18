@@ -26,7 +26,6 @@ app.layout = html.Div([
 # - point 4
 #     '''
 
-    )
 ])
 
 if __name__ == "__main__":
