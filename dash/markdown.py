@@ -7,15 +7,23 @@ external_stylesheet = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheet)
 
 app.layout = html.Div([
-    dcc.Markdown('''
-# Title 1
-## Title 2
+    html.Label("Dropdonw"),
+    dcc.Dropdown(
+        options=[
+            {"label": "Bob", "value": "bob"},
+            {"label": "Eric", "value": "eric"},
+            {"label": "Alex", "value": "alex"},
+        ]
+    )
+#     dcc.Markdown('''
+# # Title 1
+# ## Title 2
 
-- point 1
-- point 2
-- point 3
-- point 4
-    '''
+# - point 1
+# - point 2
+# - point 3
+# - point 4
+#     '''
 
     )
 ])
