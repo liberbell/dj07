@@ -14,7 +14,7 @@ app.layout = html.Div([
             {"label": "Eric", "value": "eric"},
             {"label": "Alex", "value": "alex"},
         ],
-        value= "George"
+        value= "eric"
     ),
     html.Label("Dropdown multi-select"),
     dcc.Dropdown(
@@ -23,7 +23,7 @@ app.layout = html.Div([
             {"label": "Eric", "value": "eric"},
             {"label": "Alex", "value": "alex"},
         ],
-        value= ["jhon", "elton"],
+        value= ["eric", "alex"],
         multi= True
     )
 #     dcc.Markdown('''
