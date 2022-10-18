@@ -17,7 +17,7 @@ app.layout = html.Div([
         value= "George"
     ),
     html.Label("Dropdown multi-select"),
-        dcc.Dropdown(
+    dcc.Dropdown(
         options=[
             {"label": "Bob", "value": "bob"},
             {"label": "Eric", "value": "eric"},
