@@ -53,6 +53,7 @@ app.layout = html.Div([
         min=0,
         max=10,
         marks={i:i for i in range(1, 6)},
+        value=3
     )
 #     dcc.Markdown('''
 # # Title 1
