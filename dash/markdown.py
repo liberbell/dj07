@@ -10,6 +10,11 @@ app.layout = html.Div([
     dcc.Markdown('''
 # Title 1
 ## Title 2
+
+- point 1
+- point 2
+- point 3
+- point 4
     '''
 
     )
