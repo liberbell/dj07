@@ -66,7 +66,7 @@ app.layout = html.Div([
 # - point 4
 #     '''
 
-])
+], style={"columnCount": 2})
 
 if __name__ == "__main__":
     app.run_server(debug=True)
