@@ -1,6 +1,7 @@
 import dash
 from dash import dcc
 from dash import html
+from dash.dependencies import Input, Output
 
 external_stylesheet = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 
@@ -12,6 +13,14 @@ app.layout = html.Div([
 
 
 ], style={"columnCount": 2})
+
+@app.callback(
+    Output(component_id="output-div", component_property='children'),
+    [Input(component_id="input-div", component_property='value')]
+)
+
+def update(input_value):
+    
 
 if __name__ == "__main__":
     app.run_server(debug=True)
