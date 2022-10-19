@@ -7,7 +7,7 @@ external_stylesheet = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 app = dash.Dash(__name__, external_stylesheets=external_stylesheet)
 
 app.layout = html.Div([
-    dcc.Input(id="input-div", values="initial value", type="text"),
+    dcc.Input(id="input-div", value="initial value", type="text"),
     html.Div(id="output-div")
 
 
