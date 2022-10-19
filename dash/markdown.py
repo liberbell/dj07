@@ -52,7 +52,7 @@ app.layout = html.Div([
     dcc.Slider(
         min=0,
         max=10,
-        marks={i:i for i in range(1, 6)},
+        marks={i:str(i) for i in range(1, 6)},
         value=3,
         id="Slider1"
     )
