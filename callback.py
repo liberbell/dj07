@@ -12,7 +12,7 @@ app.layout = html.Div([
     html.Div(id="output-div")
 
 
-], style={"columnCount": 2})
+])
 
 @app.callback(
     Output(component_id="output-div", component_property='children'),
@@ -20,7 +20,7 @@ app.layout = html.Div([
 )
 
 def update(input_value):
-    
+    return "you entered {}".format(input_value)
 
 if __name__ == "__main__":
     app.run_server(debug=True)
