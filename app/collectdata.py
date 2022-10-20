@@ -25,7 +25,7 @@ reviewer_split = reviewer.split("：")
 print(int(reviewer_split[1]))
 print(type(int(reviewer_split[1])))
 
-results =[
-    "name":name,
+results ={
+    "name": name,
     "students": students_split,
-]
+}
