@@ -27,5 +27,6 @@ print(reviewer_num)
 
 results ={
     "name": name,
-    "students": students_split,
+    "students": students_num,
+    "reviewers": reviewer_num,
 }
