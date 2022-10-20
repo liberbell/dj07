@@ -2,6 +2,7 @@ from operator import imod
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
+import datetime
 
 URL = "https://scraping-for-beginner.herokuapp.com/udemy"
 
@@ -35,3 +36,5 @@ print(results)
 
 df = pd.read_csv("assets/studentsnum.csv")
 print(df.head())
+
+print(datetime.datetime.today().strftime("%Y%-m%-d"))
