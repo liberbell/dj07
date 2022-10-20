@@ -21,3 +21,5 @@ print(students_split[1])
 
 reviewer = soup.select("body > div.row > div > div:nth-child(2) > div > div > div.card-action > p.reviews")[0].string
 print(reviewer)
+reviewer_split = reviewer.split("：")
+print(reviewer_split[1])
