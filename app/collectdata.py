@@ -30,3 +30,4 @@ results ={
     "students": students_num,
     "reviewers": reviewer_num,
 }
+print(results)
