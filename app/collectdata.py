@@ -23,8 +23,7 @@ reviewer = soup.select("body > div.row > div > div:nth-child(2) > div > div > di
 print(reviewer)
 reviewer_split = reviewer.split("：")
 reviewer_num = int(reviewer_split)
-print(reviewer_split[1])
-print(type(reviewer_split[1]))
+print(reviewer_num)
 
 results ={
     "name": name,
