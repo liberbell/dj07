@@ -37,4 +37,7 @@ print(results)
 df = pd.read_csv("assets/studentsnum.csv")
 print(df.head())
 
-print(datetime.datetime.today().strftime("%Y%-m%-d"))
+# print(datetime.datetime.today().strftime("%Y/%-m/%-d"))
+date = datetime.datetime.today().strftime("%Y/%-m/%-d")
+subscribers = results["students"]
+reviews = results["reviewers"]
