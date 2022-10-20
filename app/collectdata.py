@@ -33,5 +33,5 @@ results ={
 }
 print(results)
 
-df = pd.read_csv("assets/studentsdata.csv")
+df = pd.read_csv("assets/studentsnum.csv")
 print(df.head())
