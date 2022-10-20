@@ -1,6 +1,7 @@
 from operator import imod
 from bs4 import BeautifulSoup
 import requests
+import pandas as pd
 
 URL = "https://scraping-for-beginner.herokuapp.com/udemy"
 
@@ -11,19 +12,19 @@ data1 = requests.get(URL)
 soup = BeautifulSoup(data1.text, "html.parser")
 # print(soup)
 name= soup.select(".card-title")[0].string
-print(name)
+# print(name)
 
 students = soup.select("body > div.row > div > div:nth-child(2) > div > div > div.card-action > p.subscribers")[0].string
-print(students)
+# print(students)
 students_split = students.split("：")
 students_num = int(students_split[1])
-print(students_num)
+# print(students_num)
 
 reviewer = soup.select("body > div.row > div > div:nth-child(2) > div > div > div.card-action > p.reviews")[0].string
-print(reviewer)
+# print(reviewer)
 reviewer_split = reviewer.split("：")
 reviewer_num = int(reviewer_split[1])
-print(reviewer_num)
+# print(reviewer_num)
 
 results ={
     "name": name,
@@ -31,3 +32,4 @@ results ={
     "reviewers": reviewer_num,
 }
 print(results)
+
