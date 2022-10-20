@@ -41,3 +41,5 @@ print(df.head())
 date = datetime.datetime.today().strftime("%Y/%-m/%-d")
 subscribers = results["students"]
 reviews = results["reviewers"]
+
+pd.DataFrame([date, subscribers, reviews], columns=["date", "subscribers", "reviews"])
