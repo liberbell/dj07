@@ -33,3 +33,5 @@ results ={
 }
 print(results)
 
+df = pd.read_csv("assets/studentsdata.csv")
+print(df.head())
