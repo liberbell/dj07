@@ -16,14 +16,13 @@ print(name)
 students = soup.select("body > div.row > div > div:nth-child(2) > div > div > div.card-action > p.subscribers")[0].string
 print(students)
 students_split = students.split("：")
-students_split = int(students_split)
-print(students_split)
-print(students_split[1])
+students_num = int(students_split)
+print(students_num)
 
 reviewer = soup.select("body > div.row > div > div:nth-child(2) > div > div > div.card-action > p.reviews")[0].string
 print(reviewer)
 reviewer_split = reviewer.split("：")
-reviewer_split = int(reviewer_split)
+reviewer_num = int(reviewer_split)
 print(reviewer_split[1])
 print(type(reviewer_split[1]))
 
