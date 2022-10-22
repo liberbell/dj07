@@ -1,4 +1,3 @@
-from operator import imod
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
@@ -71,15 +70,14 @@ def get_udemy_info():
     }
     return results
 
-df = pd.read_csv("assets/studentsnum.csv")
+def write_data():
+    df = pd.read_csv("assets/studentsnum.csv")
 
-date = datetime.datetime.today().strftime("%Y/%-m/%-d")
-_results = get_udemy_info()
-subscribers = _results["students"]
-reviews = _results["reviewers"]
+    date = datetime.datetime.today().strftime("%Y/%-m/%-d")
+    _results = get_udemy_info()
+    subscribers = _results["students"]
+    reviews = _results["reviewers"]
+    results = pd.DataFrame([[date, subscribers, reviews]], columns=["date", "subscribers", "reviews"])
 
-
-results = pd.DataFrame([[date, subscribers, reviews]], columns=["date", "subscribers", "reviews"])
-df = pd.concat([df, results])
-
-df.to_csv("assets/data.csv", index=False)
+    df = pd.concat([df, results])
+    df.to_csv("assets/data.csv", index=False)
