@@ -32,10 +32,10 @@ results ={
     "students": students_num,
     "reviewers": reviewer_num,
 }
-print(results)
+# print(results)
 
 df = pd.read_csv("assets/studentsnum.csv")
-print(df.head())
+# print(df.head())
 
 # print(datetime.datetime.today().strftime("%Y/%-m/%-d"))
 date = datetime.datetime.today().strftime("%Y/%-m/%-d")
@@ -48,3 +48,11 @@ df = pd.concat([df, results])
 # print(df.tail())
 
 df.to_csv("assets/data.csv", index=False)
+
+def get_udemy():
+    URL = "https://scraping-for-beginner.herokuapp.com/udemy"
+    data1 = requests.get(URL)
+    soup = BeautifulSoup(data1.text, "html.parser")
+    name= soup.select(".card-title")[0].string
+
+    students = soup.select(".subscribers")[0].string
