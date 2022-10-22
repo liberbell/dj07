@@ -55,6 +55,11 @@ def get_udemy():
     soup = BeautifulSoup(data1.text, "html.parser")
     
     name= soup.select(".card-title")[0].string
+
     students = soup.select(".subscribers")[0].string
     students_split = students.split("：")
     students_num = int(students_split[1])
+
+    reviewer = soup.select(".reviews")[0].string
+    reviewer_split = reviewer.split("：")
+    reviewer_num = int(reviewer_split[1])
