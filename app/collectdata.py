@@ -43,6 +43,8 @@ subscribers = results["students"]
 reviews = results["reviewers"]
 
 results = pd.DataFrame([[date, subscribers, reviews]], columns=["date", "subscribers", "reviews"])
-print(results)
+# print(results)
 df = pd.concat([df, results])
-print(df.tail())
+# print(df.tail())
+
+df.to_csv("assets/data.csv", index=False)
