@@ -53,6 +53,8 @@ def get_udemy():
     URL = "https://scraping-for-beginner.herokuapp.com/udemy"
     data1 = requests.get(URL)
     soup = BeautifulSoup(data1.text, "html.parser")
+    
     name= soup.select(".card-title")[0].string
-
     students = soup.select(".subscribers")[0].string
+    students_split = students.split("：")
+    students_num = int(students_split[1])
