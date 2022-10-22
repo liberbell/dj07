@@ -37,16 +37,16 @@ df = pd.read_csv("assets/studentsnum.csv")
 # print(df.head())
 
 # print(datetime.datetime.today().strftime("%Y/%-m/%-d"))
-date = datetime.datetime.today().strftime("%Y/%-m/%-d")
-subscribers = results["students"]
-reviews = results["reviewers"]
+# date = datetime.datetime.today().strftime("%Y/%-m/%-d")
+# subscribers = results["students"]
+# reviews = results["reviewers"]
 
-results = pd.DataFrame([[date, subscribers, reviews]], columns=["date", "subscribers", "reviews"])
-# print(results)
-df = pd.concat([df, results])
-# print(df.tail())
+# results = pd.DataFrame([[date, subscribers, reviews]], columns=["date", "subscribers", "reviews"])
+# # print(results)
+# df = pd.concat([df, results])
+# # print(df.tail())
 
-df.to_csv("assets/data.csv", index=False)
+# df.to_csv("assets/data.csv", index=False)
 
 def get_udemy_info():
     URL = "https://scraping-for-beginner.herokuapp.com/udemy"
@@ -81,3 +81,6 @@ def write_data():
 
     df = pd.concat([df, results])
     df.to_csv("assets/data.csv", index=False)
+
+df = pd.read_csv("assets/data.csv")
+print(df.head())
