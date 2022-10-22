@@ -34,38 +34,39 @@ import datetime
 # }
 # print(results)
 
-df = pd.read_csv("assets/studentsnum.csv")
-# print(df.head())
+# df = pd.read_csv("assets/studentsnum.csv")
+# # print(df.head())
 
-# print(datetime.datetime.today().strftime("%Y/%-m/%-d"))
-date = datetime.datetime.today().strftime("%Y/%-m/%-d")
-subscribers = results["students"]
-reviews = results["reviewers"]
+# # print(datetime.datetime.today().strftime("%Y/%-m/%-d"))
+# date = datetime.datetime.today().strftime("%Y/%-m/%-d")
+# subscribers = results["students"]
+# reviews = results["reviewers"]
 
-results = pd.DataFrame([[date, subscribers, reviews]], columns=["date", "subscribers", "reviews"])
-# print(results)
-df = pd.concat([df, results])
-# print(df.tail())
+# results = pd.DataFrame([[date, subscribers, reviews]], columns=["date", "subscribers", "reviews"])
+# # print(results)
+# df = pd.concat([df, results])
+# # print(df.tail())
 
-df.to_csv("assets/data.csv", index=False)
+# df.to_csv("assets/data.csv", index=False)
 
-def get_udemy():
-    URL = "https://scraping-for-beginner.herokuapp.com/udemy"
-    data1 = requests.get(URL)
-    soup = BeautifulSoup(data1.text, "html.parser")
-    
-    name= soup.select(".card-title")[0].string
+# def get_udemy():
+URL = "https://scraping-for-beginner.herokuapp.com/udemy"
+data1 = requests.get(URL)
+soup = BeautifulSoup(data1.text, "html.parser")
 
-    students = soup.select(".subscribers")[0].string
-    students_split = students.split("：")
-    students_num = int(students_split[1])
+name= soup.select(".card-title")[0].string
 
-    reviewer = soup.select(".reviews")[0].string
-    reviewer_split = reviewer.split("：")
-    reviewer_num = int(reviewer_split[1])
+students = soup.select(".subscribers")[0].string
+students_split = students.split("：")
+students_num = int(students_split[1])
 
-    results ={
-    "name": name,
-    "students": students_num,
-    "reviewers": reviewer_num,
-    }
+reviewer = soup.select(".reviews")[0].string
+reviewer_split = reviewer.split("：")
+reviewer_num = int(reviewer_split[1])
+
+results ={
+"name": name,
+"students": students_num,
+"reviewers": reviewer_num,
+}
+print(results)
