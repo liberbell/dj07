@@ -32,7 +32,10 @@ app.layout = html.Div(children=[
                     go.scatter(
                         x=dates,
                         y=subscriver_num,
-                        mode="lines+markers", 
+                        mode="lines+markers",
+                        name="Subscribers Num",
+                        opacity=0.6,
+                        yaxis="y1", 
                     )
                 ]
             }
