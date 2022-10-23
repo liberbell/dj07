@@ -89,5 +89,9 @@ print(type(df["date"][0]))
 print(type(datetime.datetime.strptime(df["date"][0], "%Y/%m/%d")))
 print(datetime.datetime.strptime(df["date"][0], "%Y/%m/%d").date())
 
+dates = []
 for _date in df["date"]:
     date = datetime.datetime.strptime(df["date"][0], "%Y/%m/%d").date()
+    dates.append(date)
+
+print(dates)
