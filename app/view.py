@@ -23,7 +23,12 @@ diff_reviews = df["reviews"].diff().values
 app = dash.Dash(__name__, external_stylesheets=external_stylesheet)
 
 app.layout = html.Div(children=[
-    html.H2(children="Web scraping by python")
+    html.H2(children="Web scraping by python"),
+    html.Div(children=[
+        dcc.Graph(
+            id="subscribers_graph",
+        )
+    ])
 ])
 
 if __name__ == "__main__":
