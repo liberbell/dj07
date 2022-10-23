@@ -84,4 +84,4 @@ def write_data():
 
 df = pd.read_csv("assets/data.csv")
 print(df.head())
-print(df["date"][0])
+print(type(df["date"][0]))
