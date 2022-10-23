@@ -101,4 +101,7 @@ subscriver_num = df["subscribers"].values
 review_num = df["reviews"].values
 
 diff_subscribers = df["subscribers"].diff().values
-print(diff_subscribers)
+# print(diff_subscribers)
+
+diff_reviews = df["subscribers"].diff().values
+print(diff_reviews)
