@@ -96,3 +96,5 @@ for _date in df["date"]:
 
 # print(dates)
 subscriver_num = df["subscribers"].values
+
+print(df["reviews"])
