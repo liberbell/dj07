@@ -95,4 +95,4 @@ for _date in df["date"]:
     dates.append(date)
 
 # print(dates)
-print(df["subscribers"])
+subscriver_num = df["subscribers"].values
