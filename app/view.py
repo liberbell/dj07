@@ -20,6 +20,9 @@ review_num = df["reviews"].values
 diff_subscribers = df["subscribers"].diff().values
 diff_reviews = df["reviews"].diff().values
 
+print(dates)
+print(subscriver_num)
+
 app = dash.Dash(__name__, external_stylesheets=external_stylesheet)
 
 app.layout = html.Div(children=[
