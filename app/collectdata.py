@@ -85,3 +85,5 @@ def write_data():
 df = pd.read_csv("assets/data.csv")
 print(df.head())
 print(type(df["date"][0]))
+
+print(type(datetime.datetime.strptime(df["date"][0], "%Y/%m/%d")))
