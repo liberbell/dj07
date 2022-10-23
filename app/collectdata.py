@@ -83,11 +83,11 @@ def write_data():
     df.to_csv("assets/data.csv", index=False)
 
 df = pd.read_csv("assets/data.csv")
-print(df.head())
-print(type(df["date"][0]))
+# print(df.head())
+# print(type(df["date"][0]))
 
-print(type(datetime.datetime.strptime(df["date"][0], "%Y/%m/%d")))
-print(datetime.datetime.strptime(df["date"][0], "%Y/%m/%d").date())
+# print(type(datetime.datetime.strptime(df["date"][0], "%Y/%m/%d")))
+# print(datetime.datetime.strptime(df["date"][0], "%Y/%m/%d").date())
 
 dates = []
 for _date in df["date"]:
@@ -104,4 +104,6 @@ diff_subscribers = df["subscribers"].diff().values
 # print(diff_subscribers)
 
 diff_reviews = df["subscribers"].diff().values
-print(diff_reviews)
+# print(diff_reviews)
+
+df = 
