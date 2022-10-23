@@ -97,5 +97,8 @@ for _date in df["date"]:
 # print(dates)
 subscriver_num = df["subscribers"].values
 
-print(df["reviews"])
+# print(df["reviews"])
 review_num = df["reviews"].values
+
+diff_subscribers = df["subscribers"].diff().values
+print(diff_subscribers)
