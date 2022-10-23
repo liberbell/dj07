@@ -94,4 +94,5 @@ for _date in df["date"]:
     date = datetime.datetime.strptime(df["date"][0], "%Y/%m/%d").date()
     dates.append(date)
 
-print(dates)
+# print(dates)
+print(df["subscribers"])
