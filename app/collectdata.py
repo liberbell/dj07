@@ -88,3 +88,6 @@ print(type(df["date"][0]))
 
 print(type(datetime.datetime.strptime(df["date"][0], "%Y/%m/%d")))
 print(datetime.datetime.strptime(df["date"][0], "%Y/%m/%d").date())
+
+for _date in df["date"]:
+    print(_date)
