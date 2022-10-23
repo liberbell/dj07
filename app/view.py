@@ -53,7 +53,7 @@ app.layout = html.Div(children=[
                     title="Subscribers Diff",
                     xaxis=dict(title="Date"),
                     yaxis=dict(title="Subscribers Num", side="left", showgrid=False, range=[2000, max(subscriver_num)+100]),
-                    yaxis2=dict(title="Subscribers Diff", side="right", showgrid=False, range=[0, max(diff_subscribers[1:])]),
+                    yaxis2=dict(title="Subscribers Diff", side="right", overlaying="y", showgrid=False, range=[0, max(diff_subscribers[1:])]),
                 )
             }
         )
