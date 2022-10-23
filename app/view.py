@@ -27,6 +27,15 @@ app.layout = html.Div(children=[
     html.Div(children=[
         dcc.Graph(
             id="subscribers_graph",
+            figure={
+                "data":[
+                    go.scatter(
+                        x=dates,
+                        y=subscriver_num,
+                        mode="lines+markers", 
+                    )
+                ]
+            }
         )
     ])
 ])
