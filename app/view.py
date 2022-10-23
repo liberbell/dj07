@@ -52,7 +52,7 @@ app.layout = html.Div(children=[
                 "layout": go.Layout(
                     title="Subscribers Diff",
                     xaxis=dict(title="Date"),
-                    yaxis=dict(title="Subscribers Num", side=left, showgrid=False, range=[2000, max(subscriver_num)+100]),
+                    yaxis=dict(title="Subscribers Num", side="left", showgrid=False, range=[2000, max(subscriver_num)+100]),
                 )
             }
         )
