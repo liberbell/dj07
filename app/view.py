@@ -40,10 +40,10 @@ app.layout = html.Div(children=[
                         opacity=0.6,
                         yaxis="y1"
                     ),
-                    go.Scatter(
+                    go.Bar(
                         x=dates,
                         y=diff_subscribers,
-                        mode="lines",
+                        name="Subscribers Diff",
                     )
                 ]
             }
