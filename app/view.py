@@ -35,7 +35,7 @@ app.layout = html.Div(children=[
                         mode="lines+markers",
                         name="Subscribers Num",
                         opacity=0.6,
-                        yaxis="y1", 
+                        yaxis="y1"
                     )
                 ]
             }
