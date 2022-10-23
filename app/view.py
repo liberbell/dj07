@@ -20,6 +20,8 @@ review_num = df["reviews"].values
 diff_subscribers = df["subscribers"].diff().values
 diff_reviews = df["reviews"].diff().values
 
+print(diff_subscribers)
+print(diff_reviews)
 # print(dates)
 # print(subscriver_num)
 
@@ -46,7 +48,12 @@ app.layout = html.Div(children=[
                         name="Subscribers Diff",
                         yaxis="y2"
                     )
-                ]
+                ],
+                "layout": go.Layout(
+                    title="Subscribers Diff",
+                    xaxis=dict(title="Date"),
+                    yaxis=dict(title="Subscribers Num", side=left, showgrid=False, range=[]),
+                )
             }
         )
     ])
