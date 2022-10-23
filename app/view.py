@@ -29,7 +29,7 @@ app.layout = html.Div(children=[
             id="subscribers_graph",
             figure={
                 "data":[
-                    go.scatter(
+                    go.Scatter(
                         x=dates,
                         y=subscriver_num,
                         mode="lines+markers",
