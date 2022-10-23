@@ -11,7 +11,7 @@ external_stylesheet = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 df = pd.read_csv("assets/data.csv")
 dates = []
 for _date in df["date"]:
-    date = datetime.datetime.strptime(df["date"][0], "%Y/%m/%d").date()
+    date = datetime.datetime.strptime(_date, "%Y/%m/%d").date()
     dates.append(date)
 
 subscriver_num = df["subscribers"].values
