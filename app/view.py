@@ -73,14 +73,14 @@ app.layout = html.Div(children=[
                     go.Bar(
                         x=dates,
                         y=diff_reviews,
-                        name="Review5s Diff",
+                        name="Reviews Diff",
                         yaxis="y2"
                     )
                 ],
                 "layout": go.Layout(
                     title="Reviews Diff",
                     xaxis=dict(title="Date"),
-                    yaxis=dict(title="Reviews Num", side="left", showgrid=False, range=[2000, max(review_num)+100]),
+                    yaxis=dict(title="Reviews Num", side="left", showgrid=False, range=[0, max(review_num)+10]),
                     yaxis2=dict(title="Reviews Diff", side="right", overlaying="y", showgrid=False, range=[0, max(diff_reviews[1:])]),
                     margin=dict(l=200, r=200, b=100, t=100),
                 )
