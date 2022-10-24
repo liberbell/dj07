@@ -23,3 +23,4 @@ Base.query = db_session.query_property()
 
 def init_db():
     import assets.models
+    Base.metadata.create_all(bind=engine)
