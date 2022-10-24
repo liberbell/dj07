@@ -49,10 +49,22 @@ app.layout = html.Div(children=[
                         yaxis="y2"
                     )
                 ],
+                "layout": go.Layout(
+                    title="Subscribers Diff",
+                    xaxis=dict(title="Date"),
+                    yaxis=dict(title="Subscribers Num", side="left", showgrid=False, range=[2000, max(subscriver_num)+100]),
+                    yaxis2=dict(title="Subscribers Diff", side="right", overlaying="y", showgrid=False, range=[0, max(diff_subscribers[1:])]),
+                    margin=dict(l=200, r=200, b=100, t=100),
+                )
+            }
+        ),
+        dcc.Graph(
+            id="reviews_graph",
+            figure={
                 "data":[
                     go.Scatter(
                         x=dates,
-                        y=subscriver_num,
+                        y=review_num,
                         mode="lines+markers",
                         name="Subscribers Num",
                         opacity=0.6,
