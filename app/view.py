@@ -66,14 +66,14 @@ app.layout = html.Div(children=[
                         x=dates,
                         y=review_num,
                         mode="lines+markers",
-                        name="Subscribers Num",
+                        name="Reviews Num",
                         opacity=0.6,
                         yaxis="y1"
                     ),
                     go.Bar(
                         x=dates,
-                        y=diff_subscribers,
-                        name="Subscribers Diff",
+                        y=diff_reviews,
+                        name="Reviews Diff",
                         yaxis="y2"
                     )
                 ],
