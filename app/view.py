@@ -49,6 +49,22 @@ app.layout = html.Div(children=[
                         yaxis="y2"
                     )
                 ],
+                "data":[
+                    go.Scatter(
+                        x=dates,
+                        y=subscriver_num,
+                        mode="lines+markers",
+                        name="Subscribers Num",
+                        opacity=0.6,
+                        yaxis="y1"
+                    ),
+                    go.Bar(
+                        x=dates,
+                        y=diff_subscribers,
+                        name="Subscribers Diff",
+                        yaxis="y2"
+                    )
+                ],
                 "layout": go.Layout(
                     title="Subscribers Diff",
                     xaxis=dict(title="Date"),
