@@ -89,7 +89,7 @@ app.layout = html.Div(children=[
     ])
 ],style={
     "textAlign": "center",
-    "width": "1200px",
+    "width": "1500px",
     "margin": "0 auto",
 
 }
