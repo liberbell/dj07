@@ -1,6 +1,3 @@
-from curses import echo
-from distutils.util import convert_path
-import imp
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
@@ -22,5 +19,5 @@ Base = declarative_base()
 Base.query = db_session.query_property()
 
 def init_db():
-    import assets.models
+    import .models
     Base.metadata.create_all(bind=engine)
