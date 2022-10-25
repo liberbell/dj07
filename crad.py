@@ -9,4 +9,5 @@ import datetime
 # init_db()
 date = datetime.date.today()
 print(date)
-row = Data(date=DataHandler, subscribers=3500, reviews=200)
+row = Data(date=date, subscribers=3500, reviews=200)
+print(row.date, row.subscribers, row.reviews)
