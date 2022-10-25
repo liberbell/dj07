@@ -1,7 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-import app.assets.models
 
 import datetime
 import os
@@ -21,4 +20,5 @@ Base.query = db_session.query_property()
 
 def init_db():
     # import models
+    import app.assets.models
     Base.metadata.create_all(bind=engine)
