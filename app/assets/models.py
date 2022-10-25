@@ -16,3 +16,6 @@ class Data(Base):
 
     def __init__(self, date=None, subscribers=None, reviews=None, timestamp=None):
         self.date = date
+        self.subscribers = subscribers
+        self.reviews = reviews
+        self.timestamp = timestamp
