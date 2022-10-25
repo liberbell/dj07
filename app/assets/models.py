@@ -9,3 +9,4 @@ class Data(Base):
 
     id = Column(Integer, primary_key=True)
     date = Column(Date, unique=False)
+    subscribers = Column(Integer, unique=False)
