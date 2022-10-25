@@ -13,3 +13,6 @@ class Data(Base):
     subscribers = Column(Integer, unique=False)
     reviews = Column(Integer, unique=False)
     timestamp = Column(DateTime, default=dt.now())
+
+    def __init__(self, date=None, subscribers=None, reviews=None, timestamp=None):
+        self.date = date
