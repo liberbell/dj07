@@ -4,3 +4,5 @@ from app.assets.database import init_db
 from app.assets.models import Data
 
 import datetime
+
+init_db()
