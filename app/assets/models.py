@@ -1,3 +1,4 @@
+from email.policy import default
 from enum import unique
 import imp
 from sqlalchemy import Column, Integer, String, Boolean, DateTime, Date
@@ -10,3 +11,5 @@ class Data(Base):
     id = Column(Integer, primary_key=True)
     date = Column(Date, unique=False)
     subscribers = Column(Integer, unique=False)
+    reviews = Column(Integer, unique=False)
+    timestamp = Column(DateTime, default=dt.now())
