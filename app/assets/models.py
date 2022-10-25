@@ -1,8 +1,5 @@
-from email.policy import default
-from enum import unique
-import imp
 from sqlalchemy import Column, Integer, String, Boolean, DateTime, Date
-from assets.database import Base
+from app.assets.database import Base
 from datetime import datetime as dt
 
 class Data(Base):
