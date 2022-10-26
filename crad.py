@@ -30,4 +30,7 @@ row2 = Data(date=date, subscribers=1500, reviews=220)
 # print(db_session.query(Data).all()[0].subscribers)
 
 datam = db_session.query(Data).filter_by(subscribers=10000).one()
-print(datam)
+# print(datam)
+
+db_session.delete(datam)
+db_session.commit()
