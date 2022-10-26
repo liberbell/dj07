@@ -20,4 +20,4 @@ row2 = Data(date=date, subscribers=1500, reviews=220)
 # db_session.add(row2)
 # db_session.commit()
 
-db_session.query(Data).all()
+print(db_session.query(Data).all()[0].subscribers)
