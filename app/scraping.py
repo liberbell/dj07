@@ -29,12 +29,14 @@ def get_udemy_info():
 def write_data():
     # df = pd.read_csv("assets/studentsnum.csv")
 
-    date = datetime.datetime.today().strftime("%Y/%-m/%-d")
+    date = datetime.date.today()
     _results = get_udemy_info()
     subscribers = _results["students"]
     reviews = _results["reviewers"]
 
     row = Data(date=date, subscribers=subscribers, reviews=reviews)
+    db_session.add(row)
+    db_session.commit()
 
 if __name__ == "__main__":
     write_data()
