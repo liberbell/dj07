@@ -34,5 +34,7 @@ def write_data():
     subscribers = _results["students"]
     reviews = _results["reviewers"]
 
+    row = Data(date=date, subscribers=subscribers, reviews=reviews)
+
 if __name__ == "__main__":
     write_data()
