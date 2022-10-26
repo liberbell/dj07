@@ -8,8 +8,11 @@ import datetime
 
 # init_db()
 date = datetime.date.today()
-print(date)
+# print(date)
 row = Data(date=date, subscribers=3500, reviews=200)
-print(row.date, row.subscribers, row.reviews)
-db_session.add(row)
-db_session.commit()
+# print(row.date, row.subscribers, row.reviews)
+# db_session.add(row)
+# db_session.commit()
+
+row1 = Data(date=date, subscribers=6500, reviews=210)
+row2 = Data(date=date, subscribers=1500, reviews=220)
