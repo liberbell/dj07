@@ -4,6 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 import datetime
 import os
+import pandas as pd
 
 database_file = os.path.join(os.path.abspath(os.path.dirname(__file__)), "data.db")
 engine = create_engine("sqlite:///" + database_file, convert_unicode=True, echo=True)
@@ -24,7 +25,7 @@ def init_db():
     Base.metadata.create_all(bind=engine)
 
 def read_data():
-    import models
+    import app.assets.models
     for index, _df in df.iterrows():
         fdate = datetime.datetime.strptime(_df["date"], "%Y/%m/%d").date()
         print(_df["date"])
