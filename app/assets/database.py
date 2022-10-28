@@ -22,3 +22,13 @@ def init_db():
     # import models
     import app.assets.models
     Base.metadata.create_all(bind=engine)
+
+def read_data():
+    import models
+    for index, _df in df.iterrows():
+        fdate = datetime.datetime.strptime(_df["date"], "%Y/%m/%d").date()
+        print(_df["date"])
+        row = models.Data(date=date, subscribers=_df["subscribers"], reviews=_df["reviews"])
+        db_session.add(row)
+        
+    db_session.commit()
