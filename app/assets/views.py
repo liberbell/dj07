@@ -12,4 +12,6 @@ subscribers = []
 reviews = []
 
 for datum in data:
-    print(datum.date)
+    dates.append(datum.data)
+    subscribers.append(datum.subscribers)
+    reviews.append(datum.reviews)
