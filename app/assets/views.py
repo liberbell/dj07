@@ -3,9 +3,6 @@ from models import Data
 import pandas as pd
 
 data = db_session.query(Data.date, Data.subscribers, Data.reviews).all()
-print(data)
-print(data[0].subscribers)
-print(data[0].date)
 
 dates = []
 subscribers = []
@@ -16,12 +13,6 @@ for datum in data:
     subscribers.append(datum.subscribers)
     reviews.append(datum.reviews)
 
-# print(dates)
-# print(pd.Series(subscribers))
-# print(reviews)
-
 diff_subscribers = pd.Series(subscribers).diff().values
 diff_reviews = pd.Series(reviews).diff().values
 
-print(diff_subscribers)
-print(diff_reviews)
