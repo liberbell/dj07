@@ -15,3 +15,7 @@ for datum in data:
     dates.append(datum.data)
     subscribers.append(datum.subscribers)
     reviews.append(datum.reviews)
+
+print(dates)
+print(subscribers)
+print(reviews)
