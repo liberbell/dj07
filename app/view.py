@@ -65,7 +65,7 @@ app.layout = html.Div(children=[
                 "layout": go.Layout(
                     title="Subscribers Diff",
                     xaxis=dict(title="Date"),
-                    yaxis=dict(title="Subscribers Num", side="left", showgrid=False, range=[2000, max(subscriver_num)+100]),
+                    yaxis=dict(title="Subscribers Num", side="left", showgrid=False, range=[2000, max(subscribers)+100]),
                     yaxis2=dict(title="Subscribers Diff", side="right", overlaying="y", showgrid=False, range=[0, max(diff_subscribers[1:])]),
                     margin=dict(l=200, r=200, b=100, t=100),
                 )
@@ -93,7 +93,7 @@ app.layout = html.Div(children=[
                 "layout": go.Layout(
                     title="Reviews Diff",
                     xaxis=dict(title="Date"),
-                    yaxis=dict(title="Reviews Num", side="left", showgrid=False, range=[0, max(review_num)+10]),
+                    yaxis=dict(title="Reviews Num", side="left", showgrid=False, range=[0, max(reviews)+10]),
                     yaxis2=dict(title="Reviews Diff", side="right", overlaying="y", showgrid=False, range=[0, max(diff_reviews[1:])]),
                     margin=dict(l=200, r=200, b=100, t=100),
                 )
