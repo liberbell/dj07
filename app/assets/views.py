@@ -17,5 +17,8 @@ for datum in data:
     reviews.append(datum.reviews)
 
 # print(dates)
-print(pd.Series(subscribers))
+# print(pd.Series(subscribers))
 # print(reviews)
+
+diff_subscribers = pd.Series(subscribers)
+diff_reviews = pd.Series(reviews)
