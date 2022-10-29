@@ -21,7 +21,7 @@ Base.query = db_session.query_property()
 
 def init_db():
     # import models
-    import models
+    import assets.models
     Base.metadata.create_all(bind=engine)
 
 def read_data():
