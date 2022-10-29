@@ -16,6 +16,6 @@ for datum in data:
     subscribers.append(datum.subscribers)
     reviews.append(datum.reviews)
 
-print(dates)
-print(subscribers)
-print(reviews)
+# print(dates)
+print(pd.Series(subscribers))
+# print(reviews)
