@@ -5,20 +5,33 @@ import plotly.graph_objs as go
 import pandas as pd
 import datetime
 
-
 external_stylesheet = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 
-df = pd.read_csv("assets/data.csv")
+# df = pd.read_csv("assets/data.csv")
+# dates = []
+# for _date in df["date"]:
+#     date = datetime.datetime.strptime(_date, "%Y/%m/%d").date()
+#     dates.append(date)
+
+# subscriver_num = df["subscribers"].values
+# review_num = df["reviews"].values
+
+# diff_subscribers = df["subscribers"].diff().values
+# diff_reviews = df["reviews"].diff().values
+
+data = db_session.query(Data.date, Data.subscribers, Data.reviews).all()
+
 dates = []
-for _date in df["date"]:
-    date = datetime.datetime.strptime(_date, "%Y/%m/%d").date()
-    dates.append(date)
+subscribers = []
+reviews = []
 
-subscriver_num = df["subscribers"].values
-review_num = df["reviews"].values
+for datum in data:
+    dates.append(datum.date)
+    subscribers.append(datum.subscribers)
+    reviews.append(datum.reviews)
 
-diff_subscribers = df["subscribers"].diff().values
-diff_reviews = df["reviews"].diff().values
+diff_subscribers = pd.Series(subscribers).diff().values
+diff_reviews = pd.Series(reviews).diff().values
 
 # print(diff_subscribers)
 # print(diff_reviews)
@@ -36,7 +49,7 @@ app.layout = html.Div(children=[
                 "data":[
                     go.Scatter(
                         x=dates,
-                        y=subscriver_num,
+                        y=subscribers,
                         mode="lines+markers",
                         name="Subscribers Num",
                         opacity=0.6,
@@ -64,7 +77,7 @@ app.layout = html.Div(children=[
                 "data":[
                     go.Scatter(
                         x=dates,
-                        y=review_num,
+                        y=reviews,
                         mode="lines+markers",
                         name="Reviews Num",
                         opacity=0.6,
