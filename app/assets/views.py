@@ -20,5 +20,5 @@ for datum in data:
 # print(pd.Series(subscribers))
 # print(reviews)
 
-diff_subscribers = pd.Series(subscribers)
-diff_reviews = pd.Series(reviews)
+diff_subscribers = pd.Series(subscribers).diff().values
+diff_reviews = pd.Series(reviews).diff().values
